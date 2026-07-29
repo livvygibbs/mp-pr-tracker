@@ -69,7 +69,7 @@ AMENDMENT_NUMBER = "NC31"
 MANUAL_QUOTES = {
     "Alex Sobel": [
         {
-            "text": "My amendment to establish a national commission on electoral reform is now the most-supported amendment this Parliament.",
+            "text": "My amendment to establish a national commission on electoral reform is now the most supported amendment this parliament with 166 signatories from eight parties, half of whom are Labour.",
             "source": "Politics.co.uk",
             "date": "8 July 2026",
         }
