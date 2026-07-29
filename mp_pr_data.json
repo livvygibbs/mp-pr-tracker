@@ -1,0 +1,2114 @@
+[
+  {
+    "name": "Abtisam Mohamed",
+    "party": "Labour",
+    "constituency": "Sheffield Central",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Adam Dance",
+    "party": "Liberal Democrat",
+    "constituency": "Yeovil",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Adam Jogee",
+    "party": "Labour",
+    "constituency": "Newcastle-under-Lyme",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": false,
+    "quotes": []
+  },
+  {
+    "name": "Adam Thompson",
+    "party": "Labour",
+    "constituency": "Erewash",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": false,
+    "quotes": []
+  },
+  {
+    "name": "Adrian Ramsay",
+    "party": "Green Party",
+    "constituency": "Waveney Valley",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Al Pinkerton",
+    "party": "Liberal Democrat",
+    "constituency": "Surrey Heath",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Alex Baker",
+    "party": "Labour",
+    "constituency": "Aldershot",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Alex Brewer",
+    "party": "Liberal Democrat",
+    "constituency": "North East Hampshire",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Alex Mayer",
+    "party": "Labour",
+    "constituency": "Dunstable and Leighton Buzzard",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Alex Sobel",
+    "party": "Labour (Co-op)",
+    "constituency": "Leeds Central and Headingley",
+    "appg_fair_elections_member": true,
+    "appg_role": "Chair & Registered Contact",
+    "nc31_signatory": true,
+    "quotes": [
+      {
+        "text": "My amendment to establish a national commission on electoral reform is now the most-supported amendment this Parliament.",
+        "source": "Politics.co.uk",
+        "date": "8 July 2026"
+      }
+    ]
+  },
+  {
+    "name": "Alison Bennett",
+    "party": "Liberal Democrat",
+    "constituency": "Mid Sussex",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Alison Hume",
+    "party": "Labour",
+    "constituency": "Scarborough and Whitby",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Alistair Carmichael",
+    "party": "Liberal Democrat",
+    "constituency": "Orkney and Shetland",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Alistair Strathern",
+    "party": "Labour",
+    "constituency": "Hitchin",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": false,
+    "quotes": []
+  },
+  {
+    "name": "Andrew Cooper",
+    "party": "Labour",
+    "constituency": "Mid Cheshire",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Andrew George",
+    "party": "Liberal Democrat",
+    "constituency": "St Ives",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Andrew Ranger",
+    "party": "Labour",
+    "constituency": "Wrexham",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Andy MacNae",
+    "party": "Labour",
+    "constituency": "Rossendale and Darwen",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Andy McDonald",
+    "party": "Labour",
+    "constituency": "Middlesbrough and Thornaby East",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Andy Slaughter",
+    "party": "Labour",
+    "constituency": "Hammersmith and Chiswick",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": false,
+    "quotes": []
+  },
+  {
+    "name": "Angus MacDonald",
+    "party": "Liberal Democrat",
+    "constituency": "Inverness, Skye and West Ross-shire",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Ann Davies",
+    "party": "Plaid Cymru",
+    "constituency": "Caerfyrddin",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Anna Dixon",
+    "party": "Labour",
+    "constituency": "Shipley",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Anna Sabine",
+    "party": "Liberal Democrat",
+    "constituency": "Frome and East Somerset",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Apsana Begum",
+    "party": "Labour",
+    "constituency": "Poplar and Limehouse",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Bambos Charalambous",
+    "party": "Labour",
+    "constituency": "Southgate and Wood Green",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Baroness Bennett of Manor Castle",
+    "party": "Green Party",
+    "constituency": "Life peer",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": false,
+    "quotes": []
+  },
+  {
+    "name": "Baroness Hodge of Barking",
+    "party": "Labour",
+    "constituency": "Life peer",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": false,
+    "quotes": []
+  },
+  {
+    "name": "Baroness Jones of Moulsecoomb",
+    "party": "Green Party",
+    "constituency": "Life peer",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": false,
+    "quotes": []
+  },
+  {
+    "name": "Baroness Lister of Burtersett",
+    "party": "Labour",
+    "constituency": "Life peer",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": false,
+    "quotes": []
+  },
+  {
+    "name": "Baroness Ritchie of Downpatrick",
+    "party": "Labour",
+    "constituency": "Life peer",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": false,
+    "quotes": []
+  },
+  {
+    "name": "Bayo Alaba",
+    "party": "Labour",
+    "constituency": "Southend East and Rochford",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": false,
+    "quotes": []
+  },
+  {
+    "name": "Beccy Cooper",
+    "party": "Labour",
+    "constituency": "Worthing West",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Bell Ribeiro-Addy",
+    "party": "Labour",
+    "constituency": "Clapham and Brixton Hill",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Ben Coleman",
+    "party": "Labour",
+    "constituency": "Chelsea and Fulham",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Ben Lake",
+    "party": "Plaid Cymru",
+    "constituency": "Ceredigion Preseli",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Blair McDougall",
+    "party": "Labour",
+    "constituency": "East Renfrewshire",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": false,
+    "quotes": []
+  },
+  {
+    "name": "Bobby Dean",
+    "party": "Liberal Democrat",
+    "constituency": "Carshalton and Wallington",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Brendan O'Hara",
+    "party": "Scottish National Party",
+    "constituency": "Argyll, Bute and South Lochaber",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Brian Mathew",
+    "party": "Liberal Democrat",
+    "constituency": "Melksham and Devizes",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Calum Miller",
+    "party": "Liberal Democrat",
+    "constituency": "Bicester and Woodstock",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Cameron Thomas",
+    "party": "Independent",
+    "constituency": "Tewkesbury",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Carla Denyer",
+    "party": "Green Party",
+    "constituency": "Bristol Central",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Caroline Voaden",
+    "party": "Liberal Democrat",
+    "constituency": "South Devon",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Cat Eccles",
+    "party": "Labour",
+    "constituency": "Stourbridge",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Cat Smith",
+    "party": "Labour",
+    "constituency": "Lancaster and Wyre",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Catherine Fookes",
+    "party": "Labour",
+    "constituency": "Monmouthshire",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": false,
+    "quotes": []
+  },
+  {
+    "name": "Charlie Maynard",
+    "party": "Liberal Democrat",
+    "constituency": "Witney",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Charlotte Cane",
+    "party": "Liberal Democrat",
+    "constituency": "Ely and East Cambridgeshire",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Chris Bloore",
+    "party": "Labour",
+    "constituency": "Redditch",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Chris Coghlan",
+    "party": "Liberal Democrat",
+    "constituency": "Dorking and Horley",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Chris Curtis",
+    "party": "Labour",
+    "constituency": "Milton Keynes North",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Chris Hinchliff",
+    "party": "Labour",
+    "constituency": "North East Hertfordshire",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Chris Law",
+    "party": "Scottish National Party",
+    "constituency": "Dundee Central",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Christine Jardine",
+    "party": "Liberal Democrat",
+    "constituency": "Edinburgh West",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Claire Hanna",
+    "party": "Social Democratic & Labour Party",
+    "constituency": "Belfast South and Mid Down",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Claire Young",
+    "party": "Liberal Democrat",
+    "constituency": "Thornbury and Yate",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Clive Jones",
+    "party": "Liberal Democrat",
+    "constituency": "Wokingham",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": false,
+    "quotes": []
+  },
+  {
+    "name": "Clive Lewis",
+    "party": "Labour",
+    "constituency": "Norwich South",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Connor Naismith",
+    "party": "Labour",
+    "constituency": "Crewe and Nantwich",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Daisy Cooper",
+    "party": "Liberal Democrat",
+    "constituency": "St Albans",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Danny Beales",
+    "party": "Labour",
+    "constituency": "Uxbridge and South Ruislip",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Danny Chambers",
+    "party": "Liberal Democrat",
+    "constituency": "Winchester",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Darren Paffey",
+    "party": "Labour",
+    "constituency": "Southampton Itchen",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Dave Doogan",
+    "party": "Scottish National Party",
+    "constituency": "Angus and Perthshire Glens",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "David Chadwick",
+    "party": "Liberal Democrat",
+    "constituency": "Brecon, Radnor and Cwm Tawe",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Debbie Abrahams",
+    "party": "Labour",
+    "constituency": "Oldham East and Saddleworth",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Douglas McAllister",
+    "party": "Labour",
+    "constituency": "West Dunbartonshire",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": false,
+    "quotes": []
+  },
+  {
+    "name": "Dr Allison Gardner",
+    "party": "Labour",
+    "constituency": "Stoke-on-Trent South",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Dr Zubir Ahmed",
+    "party": "Labour",
+    "constituency": "Glasgow South West",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Edward Morello",
+    "party": "Liberal Democrat",
+    "constituency": "West Dorset",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Ellie Chowns",
+    "party": "Green Party",
+    "constituency": "North Herefordshire",
+    "appg_fair_elections_member": true,
+    "appg_role": "Officer",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Emily Darlington",
+    "party": "Labour",
+    "constituency": "Milton Keynes Central",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Euan Stainbank",
+    "party": "Labour",
+    "constituency": "Falkirk",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Fleur Anderson",
+    "party": "Labour",
+    "constituency": "Putney",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Florence Eshalomi",
+    "party": "Labour (Co-op)",
+    "constituency": "Vauxhall and Camberwell Green",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Frank McNally",
+    "party": "Labour",
+    "constituency": "Coatbridge and Bellshill",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": false,
+    "quotes": []
+  },
+  {
+    "name": "Fred Thomas",
+    "party": "Labour",
+    "constituency": "Plymouth Moor View",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Freddie van Mierlo",
+    "party": "Liberal Democrat",
+    "constituency": "Henley and Thame",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Gideon Amos",
+    "party": "Liberal Democrat",
+    "constituency": "Taunton and Wellington",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Graham Leadbitter",
+    "party": "Scottish National Party",
+    "constituency": "Moray West, Nairn and Strathspey",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Grahame Morris",
+    "party": "Labour",
+    "constituency": "Easington",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Hannah Spencer",
+    "party": "Green Party",
+    "constituency": "Gorton and Denton",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Harpreet Uppal",
+    "party": "Labour",
+    "constituency": "Huddersfield",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": false,
+    "quotes": []
+  },
+  {
+    "name": "Helen Hayes",
+    "party": "Labour",
+    "constituency": "Dulwich and West Norwood",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Helen Maguire",
+    "party": "Liberal Democrat",
+    "constituency": "Epsom and Ewell",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Helen Morgan",
+    "party": "Liberal Democrat",
+    "constituency": "North Shropshire",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Ian Byrne",
+    "party": "Labour",
+    "constituency": "Liverpool West Derby",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Ian Roome",
+    "party": "Liberal Democrat",
+    "constituency": "North Devon",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Ian Sollom",
+    "party": "Liberal Democrat",
+    "constituency": "St Neots and Mid Cambridgeshire",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Iqbal Mohamed",
+    "party": "Independent",
+    "constituency": "Dewsbury and Batley",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Jake Richards",
+    "party": "Labour",
+    "constituency": "Rother Valley",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": false,
+    "quotes": []
+  },
+  {
+    "name": "James MacCleary",
+    "party": "Liberal Democrat",
+    "constituency": "Lewes",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "James Naish",
+    "party": "Labour",
+    "constituency": "Rushcliffe",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Jamie Stone",
+    "party": "Liberal Democrat",
+    "constituency": "Caithness, Sutherland and Easter Ross",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": false,
+    "quotes": []
+  },
+  {
+    "name": "Jeevun Sandher",
+    "party": "Labour",
+    "constituency": "Loughborough",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": false,
+    "quotes": []
+  },
+  {
+    "name": "Jenny Riddell-Carpenter",
+    "party": "Labour",
+    "constituency": "Suffolk Coastal",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Jess Asato",
+    "party": "Labour",
+    "constituency": "Lowestoft",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Jess Brown-Fuller",
+    "party": "Liberal Democrat",
+    "constituency": "Chichester",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": false,
+    "quotes": []
+  },
+  {
+    "name": "Jessica Toale",
+    "party": "Labour",
+    "constituency": "Bournemouth West",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": false,
+    "quotes": []
+  },
+  {
+    "name": "Jim Dickson",
+    "party": "Labour",
+    "constituency": "Dartford",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Jo Platt",
+    "party": "Labour",
+    "constituency": "Leigh and Atherton",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Joe Morris",
+    "party": "Labour",
+    "constituency": "Hexham",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Joe Powell",
+    "party": "Labour",
+    "constituency": "Kensington and Bayswater",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": false,
+    "quotes": []
+  },
+  {
+    "name": "John McDonnell",
+    "party": "Labour",
+    "constituency": "Hayes and Harlington",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "John Milne",
+    "party": "Liberal Democrat",
+    "constituency": "Horsham",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "John Slinger",
+    "party": "Labour",
+    "constituency": "Rugby",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Jon Trickett",
+    "party": "Labour",
+    "constituency": "Normanton and Hemsworth",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Jonathan Hinder",
+    "party": "Labour",
+    "constituency": "Pendle and Clitheroe",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": false,
+    "quotes": []
+  },
+  {
+    "name": "Josh Babarinde",
+    "party": "Liberal Democrat",
+    "constituency": "Eastbourne",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Josh Dean",
+    "party": "Labour",
+    "constituency": "Hertford and Stortford",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Josh Fenton-Glynn",
+    "party": "Labour",
+    "constituency": "Calder Valley",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Josh Newbury",
+    "party": "Labour",
+    "constituency": "Cannock Chase",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": false,
+    "quotes": []
+  },
+  {
+    "name": "Julia Buckley",
+    "party": "Labour",
+    "constituency": "Shrewsbury",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Justin Madders",
+    "party": "Labour",
+    "constituency": "Ellesmere Port and Bromborough",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Karl Turner",
+    "party": "Independent",
+    "constituency": "Kingston upon Hull East",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Kate Osborne",
+    "party": "Labour",
+    "constituency": "Jarrow and Gateshead East",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Kenneth Stevenson",
+    "party": "Labour",
+    "constituency": "Airdrie and Shotts",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": false,
+    "quotes": []
+  },
+  {
+    "name": "Kevin Bonavia",
+    "party": "Labour",
+    "constituency": "Stevenage",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": false,
+    "quotes": []
+  },
+  {
+    "name": "Kevin McKenna",
+    "party": "Labour",
+    "constituency": "Sittingbourne and Sheppey",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Kim Leadbeater",
+    "party": "Labour",
+    "constituency": "Spen Valley",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Kirsty Blackman",
+    "party": "Scottish National Party",
+    "constituency": "Aberdeen North",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Lara Bird",
+    "party": "Scottish National Party",
+    "constituency": "Arbroath and Broughty Ferry",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Layla Moran",
+    "party": "Liberal Democrat",
+    "constituency": "Oxford West and Abingdon",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Lee Barron",
+    "party": "Labour",
+    "constituency": "Corby and East Northamptonshire",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Lee Dillon",
+    "party": "Liberal Democrat",
+    "constituency": "Newbury",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Lee Pitcher",
+    "party": "Labour",
+    "constituency": "Doncaster East and the Isle of Axholme",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Lisa Smart",
+    "party": "Liberal Democrat",
+    "constituency": "Hazel Grove",
+    "appg_fair_elections_member": true,
+    "appg_role": "Officer",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Liz Jarvis",
+    "party": "Liberal Democrat",
+    "constituency": "Eastleigh",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Liz Saville Roberts",
+    "party": "Plaid Cymru",
+    "constituency": "Dwyfor Meirionnydd",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Lizzi Collinge",
+    "party": "Labour",
+    "constituency": "Morecambe and Lunesdale",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Llinos Medi",
+    "party": "Plaid Cymru",
+    "constituency": "Ynys Môn",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Lloyd Hatton",
+    "party": "Labour",
+    "constituency": "South Dorset",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": false,
+    "quotes": []
+  },
+  {
+    "name": "Lord Balfe",
+    "party": "Conservative",
+    "constituency": "Life peer",
+    "appg_fair_elections_member": true,
+    "appg_role": "Officer",
+    "nc31_signatory": false,
+    "quotes": []
+  },
+  {
+    "name": "Lord Clement-Jones",
+    "party": "Liberal Democrat",
+    "constituency": "Life peer",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": false,
+    "quotes": []
+  },
+  {
+    "name": "Lord Dubs",
+    "party": "Labour",
+    "constituency": "Life peer",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": false,
+    "quotes": []
+  },
+  {
+    "name": "Lord Kinnock",
+    "party": "Labour",
+    "constituency": "Life peer",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": false,
+    "quotes": []
+  },
+  {
+    "name": "Lord Liddle",
+    "party": "Labour",
+    "constituency": "Life peer",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": false,
+    "quotes": []
+  },
+  {
+    "name": "Lord Newby",
+    "party": "Liberal Democrat",
+    "constituency": "Life peer",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": false,
+    "quotes": []
+  },
+  {
+    "name": "Lord Pack",
+    "party": "Liberal Democrat",
+    "constituency": "Life peer",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": false,
+    "quotes": []
+  },
+  {
+    "name": "Lord Rennard",
+    "party": "Liberal Democrat",
+    "constituency": "Life peer",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": false,
+    "quotes": []
+  },
+  {
+    "name": "Lord Sikka",
+    "party": "Labour",
+    "constituency": "Life peer",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": false,
+    "quotes": []
+  },
+  {
+    "name": "Lord Wallace of Saltaire",
+    "party": "Liberal Democrat",
+    "constituency": "Life peer",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": false,
+    "quotes": []
+  },
+  {
+    "name": "Lord Wood of Anfield",
+    "party": "Labour",
+    "constituency": "Life peer",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": false,
+    "quotes": []
+  },
+  {
+    "name": "Lorraine Beavers",
+    "party": "Labour",
+    "constituency": "Blackpool North and Fleetwood",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Louise Sandher-Jones",
+    "party": "Labour",
+    "constituency": "North East Derbyshire",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": false,
+    "quotes": []
+  },
+  {
+    "name": "Luke Akehurst",
+    "party": "Labour",
+    "constituency": "North Durham",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Luke Murphy",
+    "party": "Labour",
+    "constituency": "Basingstoke",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": false,
+    "quotes": []
+  },
+  {
+    "name": "Luke Myer",
+    "party": "Labour",
+    "constituency": "Middlesbrough South and East Cleveland",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Luke Taylor",
+    "party": "Liberal Democrat",
+    "constituency": "Sutton and Cheam",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Manuela Perteghella",
+    "party": "Liberal Democrat",
+    "constituency": "Stratford-on-Avon",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Marie Goldman",
+    "party": "Liberal Democrat",
+    "constituency": "Chelmsford",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Marsha De Cordova",
+    "party": "Labour",
+    "constituency": "Battersea",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Martin Wrigley",
+    "party": "Liberal Democrat",
+    "constituency": "Newton Abbot",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Matt Turmaine",
+    "party": "Labour",
+    "constituency": "Watford",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Maureen Burke",
+    "party": "Labour",
+    "constituency": "Glasgow North East",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": false,
+    "quotes": []
+  },
+  {
+    "name": "Max Wilkinson",
+    "party": "Liberal Democrat",
+    "constituency": "Cheltenham",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Miatta Fahnbulleh",
+    "party": "Labour",
+    "constituency": "Peckham",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Michael Payne",
+    "party": "Labour",
+    "constituency": "Gedling",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": false,
+    "quotes": []
+  },
+  {
+    "name": "Michelle Welsh",
+    "party": "Labour",
+    "constituency": "Sherwood Forest",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Mike Martin",
+    "party": "Liberal Democrat",
+    "constituency": "Tunbridge Wells",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Mike Reader",
+    "party": "Labour",
+    "constituency": "Northampton South",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Mohammad Yasin",
+    "party": "Labour",
+    "constituency": "Bedford",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Mr Joshua Reynolds",
+    "party": "Liberal Democrat",
+    "constituency": "Maidenhead",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Mr Will Forster",
+    "party": "Liberal Democrat",
+    "constituency": "Woking",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Ms Polly Billington",
+    "party": "Labour",
+    "constituency": "East Thanet",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Ms Stella Creasy",
+    "party": "Labour",
+    "constituency": "Walthamstow",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Munira Wilson",
+    "party": "Liberal Democrat",
+    "constituency": "Twickenham",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Nadia Whittome",
+    "party": "Labour",
+    "constituency": "Nottingham East",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Neil Duncan-Jordan",
+    "party": "Labour",
+    "constituency": "Poole",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Noah Law",
+    "party": "Labour",
+    "constituency": "St Austell and Newquay",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Olivia Blake",
+    "party": "Labour",
+    "constituency": "Sheffield Hallam",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Olly Glover",
+    "party": "Liberal Democrat",
+    "constituency": "Didcot and Wantage",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Patrick Hurley",
+    "party": "Labour",
+    "constituency": "Southport",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Paul Davies",
+    "party": "Labour",
+    "constituency": "Colne Valley",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Paul Kohler",
+    "party": "Liberal Democrat",
+    "constituency": "Wimbledon",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Perran Moon",
+    "party": "Labour",
+    "constituency": "Camborne and Redruth",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Pete Wishart",
+    "party": "Scottish National Party",
+    "constituency": "Perth and Kinross-shire",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Peter Dowd",
+    "party": "Labour",
+    "constituency": "Bootle",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Peter Prinsley",
+    "party": "Labour",
+    "constituency": "Bury St Edmunds and Stowmarket",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Phil Brickell",
+    "party": "Labour",
+    "constituency": "Bolton West",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": false,
+    "quotes": []
+  },
+  {
+    "name": "Pippa Heylings",
+    "party": "Liberal Democrat",
+    "constituency": "South Cambridgeshire",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Rachael Maskell",
+    "party": "Labour (Co-op)",
+    "constituency": "York Central",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Rachel Blake",
+    "party": "Labour (Co-op)",
+    "constituency": "Cities of London and Westminster",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": false,
+    "quotes": []
+  },
+  {
+    "name": "Richard Baker",
+    "party": "Labour",
+    "constituency": "Glenrothes and Mid Fife",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Richard Burgon",
+    "party": "Labour",
+    "constituency": "Leeds East",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Richard Foord",
+    "party": "Liberal Democrat",
+    "constituency": "Honiton and Sidmouth",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Richard Quigley",
+    "party": "Labour",
+    "constituency": "Isle of Wight West",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Rosie Duffield",
+    "party": "Independent",
+    "constituency": "Canterbury",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Roz Savage",
+    "party": "Liberal Democrat",
+    "constituency": "South Cotswolds",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Rupa Huq",
+    "party": "Labour",
+    "constituency": "Ealing Central and Acton",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Rushanara Ali",
+    "party": "Labour",
+    "constituency": "Bethnal Green and Stepney",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Ruth Cadbury",
+    "party": "Labour",
+    "constituency": "Brentford and Isleworth",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Ruth Jones",
+    "party": "Labour",
+    "constituency": "Newport West and Islwyn",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Sadik Al-Hassan",
+    "party": "Labour",
+    "constituency": "North Somerset",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Samantha Niblett",
+    "party": "Labour",
+    "constituency": "South Derbyshire",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Sarah Dyke",
+    "party": "Liberal Democrat",
+    "constituency": "Glastonbury and Somerton",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Sarah Edwards",
+    "party": "Labour",
+    "constituency": "Tamworth",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Sarah Gibson",
+    "party": "Liberal Democrat",
+    "constituency": "Chippenham",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Sarah Green",
+    "party": "Liberal Democrat",
+    "constituency": "Chesham and Amersham",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Sarah Hall",
+    "party": "Labour",
+    "constituency": "Warrington South",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Sarah Olney",
+    "party": "Liberal Democrat",
+    "constituency": "Richmond Park",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Scott Arthur",
+    "party": "Labour",
+    "constituency": "Edinburgh South West",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Seamus Logan",
+    "party": "Scottish National Party",
+    "constituency": "Aberdeenshire North and Moray East",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Sean Woodcock",
+    "party": "Labour",
+    "constituency": "Banbury",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": false,
+    "quotes": []
+  },
+  {
+    "name": "Shockat Adam",
+    "party": "Independent",
+    "constituency": "Leicester South",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Simon Opher",
+    "party": "Labour",
+    "constituency": "Stroud",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Siân Berry",
+    "party": "Green Party",
+    "constituency": "Brighton Pavilion",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Sorcha Eastwood",
+    "party": "Alliance",
+    "constituency": "Lagan Valley",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Steff Aquarone",
+    "party": "Liberal Democrat",
+    "constituency": "North Norfolk",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Stephen Gethins",
+    "party": "Scottish National Party",
+    "constituency": "Former Member for Arbroath and Broughty Ferry",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": false,
+    "quotes": []
+  },
+  {
+    "name": "Steve Darling",
+    "party": "Liberal Democrat",
+    "constituency": "Torbay",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Steve Race",
+    "party": "Labour",
+    "constituency": "Exeter",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Steve Witherden",
+    "party": "Labour",
+    "constituency": "Montgomeryshire and Glyndŵr",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Steve Yemm",
+    "party": "Labour",
+    "constituency": "Mansfield",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": false,
+    "quotes": []
+  },
+  {
+    "name": "Susan Murray",
+    "party": "Liberal Democrat",
+    "constituency": "Mid Dunbartonshire",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Tessa Munt",
+    "party": "Liberal Democrat",
+    "constituency": "Wells and Mendip Hills",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Tim Farron",
+    "party": "Liberal Democrat",
+    "constituency": "Westmorland and Lonsdale",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Tim Roca",
+    "party": "Labour",
+    "constituency": "Macclesfield",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": false,
+    "quotes": []
+  },
+  {
+    "name": "Tom Collins",
+    "party": "Labour",
+    "constituency": "Worcester",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Tom Gordon",
+    "party": "Liberal Democrat",
+    "constituency": "Harrogate and Knaresborough",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Tom Hayes",
+    "party": "Labour",
+    "constituency": "Bournemouth East",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": false,
+    "quotes": []
+  },
+  {
+    "name": "Tom Morrison",
+    "party": "Liberal Democrat",
+    "constituency": "Cheadle",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Tony Vaughan",
+    "party": "Labour",
+    "constituency": "Folkestone and Hythe",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Valerie Vaz",
+    "party": "Labour",
+    "constituency": "Walsall and Bloxwich",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Victoria Collins",
+    "party": "Liberal Democrat",
+    "constituency": "Harpenden and Berkhamsted",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Vikki Slade",
+    "party": "Liberal Democrat",
+    "constituency": "Mid Dorset and North Poole",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Wendy Chamberlain",
+    "party": "Liberal Democrat",
+    "constituency": "North East Fife",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Wera Hobhouse",
+    "party": "Liberal Democrat",
+    "constituency": "Bath",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Will Stone",
+    "party": "Labour",
+    "constituency": "Swindon North",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Yasmin Qureshi",
+    "party": "Labour",
+    "constituency": "Bolton South and Walkden",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Yuan Yang",
+    "party": "Labour",
+    "constituency": "Earley and Woodley",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Zarah Sultana",
+    "party": "Your Party",
+    "constituency": "Coventry South",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "quotes": []
+  },
+  {
+    "name": "Zöe Franklin",
+    "party": "Liberal Democrat",
+    "constituency": "Guildford",
+    "appg_fair_elections_member": true,
+    "appg_role": "Member",
+    "nc31_signatory": true,
+    "quotes": []
+  }
+]

@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Where MPs Stand on Electoral Reform</title>
+<style>
+  :root {
+    --paper: #F3EEE3;
+    --paper-dark: #E8E0CE;
+    --ink: #211527;
+    --ink-soft: #4F435A;
+    --green: #0A5733;
+    --green-deep: #073D24;
+    --purple: #6B2382;
+    --gold: #6B2382;
+    --line: #C9BFA5;
+    --serif: 'Source Serif 4', 'Iowan Old Style', Georgia, serif;
+    --sans: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+    --mono: 'IBM Plex Mono', ui-monospace, monospace;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--sans);
+    line-height: 1.5;
+  }
+
+  @font-face {
+    font-family: 'IBM Plex Sans';
+    src: local('IBM Plex Sans');
+  }
+
+  header {
+    background: var(--green-deep);
+    color: var(--paper);
+    padding: 2.5rem 1.5rem 2rem;
+    border-bottom: 3px double var(--gold);
+  }
+
+  .header-inner {
+    max-width: 920px;
+    margin: 0 auto;
+  }
+
+  .eyebrow {
+    font-family: var(--mono);
+    font-size: 0.72rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 0.6rem;
+  }
+
+  h1 {
+    font-family: var(--serif);
+    font-weight: 600;
+    font-size: 2.1rem;
+    margin: 0 0 0.6rem;
+    letter-spacing: -0.01em;
+  }
+
+  header p {
+    max-width: 60ch;
+    color: #D9D2BE;
+    font-size: 0.98rem;
+    margin: 0;
+  }
+
+  main {
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem 4rem;
+  }
+
+  .controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    align-items: center;
+    margin-bottom: 1.75rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid var(--line);
+  }
+
+  #search {
+    flex: 1 1 240px;
+    padding: 0.65rem 0.9rem;
+    font-family: var(--sans);
+    font-size: 0.95rem;
+    border: 1.5px solid var(--ink);
+    background: var(--paper);
+    color: var(--ink);
+    border-radius: 2px;
+  }
+
+  #search:focus {
+    outline: 2px solid var(--green);
+    outline-offset: 1px;
+  }
+
+  .filter-btn {
+    font-family: var(--mono);
+    font-size: 0.78rem;
+    letter-spacing: 0.03em;
+    padding: 0.55rem 0.85rem;
+    background: transparent;
+    border: 1.5px solid var(--ink-soft);
+    color: var(--ink-soft);
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background 0.15s, color 0.15s, border-color 0.15s;
+  }
+
+  .filter-btn:hover { border-color: var(--ink); color: var(--ink); }
+
+  .filter-btn.active {
+    background: var(--green);
+    border-color: var(--green);
+    color: var(--paper);
+  }
+
+  .filter-btn:focus-visible { outline: 2px solid var(--green); outline-offset: 2px; }
+
+  .result-count {
+    font-family: var(--mono);
+    font-size: 0.78rem;
+    color: var(--ink-soft);
+    margin-bottom: 1rem;
+  }
+
+  .entry {
+    background: var(--paper-dark);
+    border: 1px solid var(--line);
+    border-radius: 3px;
+    padding: 1.1rem 1.3rem;
+    margin-bottom: 0.9rem;
+  }
+
+  .entry-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 0.4rem 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .entry-name {
+    font-family: var(--serif);
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+
+  .entry-meta {
+    font-family: var(--mono);
+    font-size: 0.78rem;
+    color: var(--ink-soft);
+  }
+
+  .tags {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin: 0.5rem 0;
+  }
+
+  .tag {
+    font-family: var(--mono);
+    font-size: 0.72rem;
+    letter-spacing: 0.02em;
+    padding: 0.22rem 0.55rem;
+    border-radius: 2px;
+    border: 1px solid;
+  }
+
+  .tag.yes {
+    background: rgba(43, 74, 47, 0.12);
+    border-color: var(--green);
+    color: var(--green);
+  }
+
+  .tag.no {
+    background: transparent;
+    border-color: var(--line);
+    color: var(--ink-soft);
+  }
+
+  .quote {
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 0.95rem;
+    color: var(--ink);
+    border-left: 2px solid var(--purple);
+    padding-left: 0.8rem;
+    margin: 0.6rem 0 0.2rem;
+  }
+
+  .quote-source {
+    font-family: var(--mono);
+    font-size: 0.7rem;
+    color: var(--ink-soft);
+    margin-top: 0.2rem;
+  }
+
+  .no-results {
+    font-family: var(--serif);
+    font-style: italic;
+    color: var(--ink-soft);
+    padding: 2rem 0;
+    text-align: center;
+  }
+
+  footer {
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 0 1.5rem 3rem;
+    font-family: var(--mono);
+    font-size: 0.72rem;
+    color: var(--ink-soft);
+    border-top: 1px solid var(--line);
+    padding-top: 1.2rem;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    * { transition: none !important; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <div class="eyebrow">A Register, Not a Ranking</div>
+    <h1>Where MPs Stand on Electoral Reform</h1>
+    <p>APPG membership, amendment signatures and public statements on proportional representation, tracked constituency by constituency.</p>
+  </div>
+</header>
+
+<main>
+  <div class="controls">
+    <input type="text" id="search" placeholder="Search by name, constituency or party…" aria-label="Search MPs">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="appg">APPG member</button>
+    <button class="filter-btn" data-filter="nc31">Signed NC31</button>
+    <button class="filter-btn" data-filter="quote">Has a quote</button>
+  </div>
+
+  <div class="result-count" id="resultCount"></div>
+  <div id="results"></div>
+</main>
+
+<footer>
+  Data sourced from the official APPG register and NC31 amendment records on parliament.uk, cross-referenced with parallelparliament.co.uk. Quotes curated by hand from Hansard and public statements. This page is independently maintained and not an official parliamentary publication.
+</footer>
+
+<script>
+  let mpData = [];
+  let activeFilter = "all";
+  let searchTerm = "";
+
+  function matchesFilter(mp) {
+    if (activeFilter === "appg") return mp.appg_fair_elections_member;
+    if (activeFilter === "nc31") return mp.nc31_signatory;
+    if (activeFilter === "quote") return mp.quotes && mp.quotes.length > 0;
+    return true;
+  }
+
+  function matchesSearch(mp) {
+    if (!searchTerm) return true;
+    const haystack = `${mp.name} ${mp.party} ${mp.constituency}`.toLowerCase();
+    return haystack.includes(searchTerm.toLowerCase());
+  }
+
+  function render() {
+    const filtered = mpData.filter(mp => matchesFilter(mp) && matchesSearch(mp));
+    const resultsEl = document.getElementById("results");
+    const countEl = document.getElementById("resultCount");
+
+    countEl.textContent = `${filtered.length} MP${filtered.length === 1 ? "" : "s"} shown`;
+
+    if (filtered.length === 0) {
+      resultsEl.innerHTML = `<div class="no-results">No MPs match that search.</div>`;
+      return;
+    }
+
+    resultsEl.innerHTML = filtered.map(mp => `
+      <article class="entry">
+        <div class="entry-top">
+          <span class="entry-name">${mp.name}</span>
+          <span class="entry-meta">${mp.party} · ${mp.constituency}</span>
+        </div>
+        <div class="tags">
+          <span class="tag ${mp.appg_fair_elections_member ? 'yes' : 'no'}">
+            ${mp.appg_fair_elections_member ? '✓' : '—'} APPG for Fair Elections
+          </span>
+          <span class="tag ${mp.nc31_signatory ? 'yes' : 'no'}">
+            ${mp.nc31_signatory ? '✓' : '—'} Signed NC31
+          </span>
+        </div>
+        ${(mp.quotes || []).map(q => `
+          <blockquote class="quote">
+            "${q.text}"
+            <div class="quote-source">${q.source}, ${q.date}</div>
+          </blockquote>
+        `).join("")}
+      </article>
+    `).join("");
+  }
+
+  document.getElementById("search").addEventListener("input", (e) => {
+    searchTerm = e.target.value;
+    render();
+  });
+
+  document.querySelectorAll(".filter-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      document.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+      activeFilter = btn.dataset.filter;
+      render();
+    });
+  });
+
+  fetch("mp_pr_data.json")
+    .then(r => r.json())
+    .then(data => {
+      mpData = data;
+      render();
+    })
+    .catch(err => {
+      document.getElementById("results").innerHTML =
+        '<div class="no-results">Could not load mp_pr_data.json. If you opened this file directly (file://), run a local server instead, e.g.: <code>python3 -m http.server</code></div>';
+      console.error(err);
+    });
+</script>
+
+</body>
+</html>
