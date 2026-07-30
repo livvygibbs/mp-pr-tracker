@@ -1,5 +1,15 @@
 [
   {
+    "name": "Abena Oppong-Asare",
+    "party": "Labour",
+    "constituency": "Erith and Thamesmead",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "abena.oppongasare.mp@parliament.uk",
+    "quotes": []
+  },
+  {
     "name": "Abtisam Mohamed",
     "party": "Labour",
     "constituency": "Sheffield Central",
@@ -40,6 +50,16 @@
     "quotes": []
   },
   {
+    "name": "Adnan Hussain",
+    "party": "Independent",
+    "constituency": "Blackburn",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "adnan.hussain.mp@parliament.uk",
+    "quotes": []
+  },
+  {
     "name": "Adrian Ramsay",
     "party": "Green Party",
     "constituency": "Waveney Valley",
@@ -47,6 +67,26 @@
     "appg_role": "Member",
     "nc31_signatory": true,
     "parliamentary_email": "adrian.ramsay.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Afzal Khan",
+    "party": "Labour",
+    "constituency": "Manchester Rusholme",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "afzal.khan.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Al Carns",
+    "party": "Labour",
+    "constituency": "Birmingham Selly Oak",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "al.carns.mp@parliament.uk",
     "quotes": []
   },
   {
@@ -60,6 +100,66 @@
     "quotes": []
   },
   {
+    "name": "Alan Campbell",
+    "party": "Labour",
+    "constituency": "Tynemouth",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "alan.campbell.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Alan Gemmell",
+    "party": "Labour",
+    "constituency": "Central Ayrshire",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "alan.gemmell.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Alan Mak",
+    "party": "Conservative",
+    "constituency": "Havant",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "alan.mak.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Alan Strickland",
+    "party": "Labour",
+    "constituency": "Newton Aycliffe and Spennymoor",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "alan.strickland.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Alberto Costa",
+    "party": "Conservative",
+    "constituency": "South Leicestershire",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "alberto.costa.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Alec Shelbrooke",
+    "party": "Conservative",
+    "constituency": "Wetherby and Easingwold",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "alec.shelbrooke.mp@parliament.uk",
+    "quotes": []
+  },
+  {
     "name": "Alex Baker",
     "party": "Labour",
     "constituency": "Aldershot",
@@ -67,6 +167,26 @@
     "appg_role": null,
     "nc31_signatory": true,
     "parliamentary_email": "alex.baker.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Alex Ballinger",
+    "party": "Labour",
+    "constituency": "Halesowen",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "alex.ballinger.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Alex Barros-Curtis",
+    "party": "Labour",
+    "constituency": "Cardiff West",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "alex.barroscurtis.mp@parliament.uk",
     "quotes": []
   },
   {
@@ -80,6 +200,36 @@
     "quotes": []
   },
   {
+    "name": "Alex Burghart",
+    "party": "Conservative",
+    "constituency": "Brentwood and Ongar",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "alex.burghart.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Alex Davies-Jones",
+    "party": "Labour",
+    "constituency": "Pontypridd",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "alex.daviesjones.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Alex Easton",
+    "party": "Independent",
+    "constituency": "North Down",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "alex.easton.mp@parliament.uk",
+    "quotes": []
+  },
+  {
     "name": "Alex Mayer",
     "party": "Labour",
     "constituency": "Dunstable and Leighton Buzzard",
@@ -87,6 +237,26 @@
     "appg_role": null,
     "nc31_signatory": true,
     "parliamentary_email": "alex.mayer.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Alex McIntyre",
+    "party": "Labour",
+    "constituency": "Gloucester",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "alex.mcintyre.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Alex Norris",
+    "party": "Labour (Co-op)",
+    "constituency": "Nottingham North and Kimberley",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "alex.norris.mp@parliament.uk",
     "quotes": []
   },
   {
@@ -106,6 +276,26 @@
     ]
   },
   {
+    "name": "Alice Macdonald",
+    "party": "Labour (Co-op)",
+    "constituency": "Norwich North",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "alice.macdonald.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Alicia Kearns",
+    "party": "Conservative",
+    "constituency": "Rutland and Stamford",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "alicia.kearns.mp@parliament.uk",
+    "quotes": []
+  },
+  {
     "name": "Alison Bennett",
     "party": "Liberal Democrat",
     "constituency": "Mid Sussex",
@@ -116,6 +306,16 @@
     "quotes": []
   },
   {
+    "name": "Alison Griffiths",
+    "party": "Conservative",
+    "constituency": "Bognor Regis and Littlehampton",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "alison.griffiths.mp@parliament.uk",
+    "quotes": []
+  },
+  {
     "name": "Alison Hume",
     "party": "Labour",
     "constituency": "Scarborough and Whitby",
@@ -123,6 +323,26 @@
     "appg_role": null,
     "nc31_signatory": true,
     "parliamentary_email": "alison.hume.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Alison McGovern",
+    "party": "Labour",
+    "constituency": "Birkenhead",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "alison.mcgovern.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Alison Taylor",
+    "party": "Labour",
+    "constituency": "Paisley and Renfrewshire North",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "alison.taylor.mp@parliament.uk",
     "quotes": []
   },
   {
@@ -146,6 +366,46 @@
     "quotes": []
   },
   {
+    "name": "Allison Gardner",
+    "party": "Labour",
+    "constituency": "Stoke-on-Trent South",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "parliamentary_email": "allison.gardner.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Amanda Hack",
+    "party": "Labour",
+    "constituency": "North West Leicestershire",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "amanda.hack.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Amanda Martin",
+    "party": "Labour",
+    "constituency": "Portsmouth North",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "amanda.martin.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Andrew Bowie",
+    "party": "Conservative",
+    "constituency": "West Aberdeenshire and Kincardine",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "andrew.bowie.mp@parliament.uk",
+    "quotes": []
+  },
+  {
     "name": "Andrew Cooper",
     "party": "Labour",
     "constituency": "Mid Cheshire",
@@ -166,6 +426,56 @@
     "quotes": []
   },
   {
+    "name": "Andrew Griffith",
+    "party": "Conservative",
+    "constituency": "Arundel and South Downs",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "andrew.griffith.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Andrew Lewin",
+    "party": "Labour",
+    "constituency": "Welwyn Hatfield",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "andrew.lewin.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Andrew Mitchell",
+    "party": "Conservative",
+    "constituency": "Sutton Coldfield",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "andrew.mitchell.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Andrew Murrison",
+    "party": "Conservative",
+    "constituency": "South West Wiltshire",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "murrisona@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Andrew Pakes",
+    "party": "Labour (Co-op)",
+    "constituency": "Peterborough",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "andrew.pakes.mp@parliament.uk",
+    "quotes": []
+  },
+  {
     "name": "Andrew Ranger",
     "party": "Labour",
     "constituency": "Wrexham",
@@ -173,6 +483,46 @@
     "appg_role": "Member",
     "nc31_signatory": true,
     "parliamentary_email": "andrew.ranger.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Andrew Rosindell",
+    "party": "Reform UK",
+    "constituency": "Romford",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "andrew.rosindell.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Andrew Snowden",
+    "party": "Conservative",
+    "constituency": "Fylde",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "andrew.snowden.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Andrew Western",
+    "party": "Labour",
+    "constituency": "Stretford and Urmston",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "andrew.western.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Andy Burnham",
+    "party": "Labour (Co-op)",
+    "constituency": "Makerfield",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "andy.burnham.mp@parliament.uk",
     "quotes": []
   },
   {
@@ -206,6 +556,26 @@
     "quotes": []
   },
   {
+    "name": "Angela Eagle",
+    "party": "Labour",
+    "constituency": "Wallasey",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "angela.eagle.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Angela Rayner",
+    "party": "Labour",
+    "constituency": "Ashton-under-Lyne",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "angela.rayner.mp@parliament.uk",
+    "quotes": []
+  },
+  {
     "name": "Angus MacDonald",
     "party": "Liberal Democrat",
     "constituency": "Inverness, Skye and West Ross-shire",
@@ -236,6 +606,26 @@
     "quotes": []
   },
   {
+    "name": "Anna Gelderd",
+    "party": "Labour",
+    "constituency": "South East Cornwall",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "anna.gelderd.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Anna McMorrin",
+    "party": "Labour",
+    "constituency": "Cardiff North",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "anna.mcmorrin.mp@parliament.uk",
+    "quotes": []
+  },
+  {
     "name": "Anna Sabine",
     "party": "Liberal Democrat",
     "constituency": "Frome and East Somerset",
@@ -246,6 +636,56 @@
     "quotes": []
   },
   {
+    "name": "Anna Turley",
+    "party": "Labour (Co-op)",
+    "constituency": "Redcar",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "anna.turley.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Anneliese Dodds",
+    "party": "Labour (Co-op)",
+    "constituency": "Oxford East",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "anneliese.dodds.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Anneliese Midgley",
+    "party": "Labour",
+    "constituency": "Knowsley",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "anneliese.midgley.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Antonia Bance",
+    "party": "Labour",
+    "constituency": "Tipton and Wednesbury",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "antonia.bance.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Aphra Brandreth",
+    "party": "Conservative",
+    "constituency": "Chester South and Eddisbury",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "aphra.brandreth.mp@parliament.uk",
+    "quotes": []
+  },
+  {
     "name": "Apsana Begum",
     "party": "Labour",
     "constituency": "Poplar and Limehouse",
@@ -253,6 +693,46 @@
     "appg_role": null,
     "nc31_signatory": true,
     "parliamentary_email": "apsana.begum.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Ashley Dalton",
+    "party": "Labour",
+    "constituency": "West Lancashire",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "ashley.dalton.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Ashley Fox",
+    "party": "Conservative",
+    "constituency": "Bridgwater",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "ashley.fox.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Ayoub Khan",
+    "party": "Independent",
+    "constituency": "Birmingham Perry Barr",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "ayoub.khan.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Baggy Shanker",
+    "party": "Labour (Co-op)",
+    "constituency": "Derby South",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "baggy.shanker.mp@parliament.uk",
     "quotes": []
   },
   {
@@ -316,6 +796,16 @@
     "quotes": []
   },
   {
+    "name": "Barry Gardiner",
+    "party": "Labour",
+    "constituency": "Brent West",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "barry.gardiner.mp@parliament.uk",
+    "quotes": []
+  },
+  {
     "name": "Bayo Alaba",
     "party": "Labour",
     "constituency": "Southend East and Rochford",
@@ -333,6 +823,16 @@
     "appg_role": "Member",
     "nc31_signatory": true,
     "parliamentary_email": "beccy.cooper.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Becky Gittins",
+    "party": "Labour",
+    "constituency": "Clwyd East",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "becky.gittins.mp@parliament.uk",
     "quotes": []
   },
   {
@@ -356,6 +856,16 @@
     "quotes": []
   },
   {
+    "name": "Ben Goldsborough",
+    "party": "Labour",
+    "constituency": "South Norfolk",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "ben.goldsborough.mp@parliament.uk",
+    "quotes": []
+  },
+  {
     "name": "Ben Lake",
     "party": "Plaid Cymru",
     "constituency": "Ceredigion Preseli",
@@ -363,6 +873,56 @@
     "appg_role": "Member",
     "nc31_signatory": true,
     "parliamentary_email": "ben.lake.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Ben Maguire",
+    "party": "Liberal Democrat",
+    "constituency": "North Cornwall",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "ben.maguire.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Ben Obese-Jecty",
+    "party": "Conservative",
+    "constituency": "Huntingdon",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "ben.obesejecty.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Ben Spencer",
+    "party": "Conservative",
+    "constituency": "Runnymede and Weybridge",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "ben.spencer.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Bernard Jenkin",
+    "party": "Conservative",
+    "constituency": "Harwich and North Essex",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "bernard.jenkin.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Bill Esterson",
+    "party": "Labour",
+    "constituency": "Sefton Central",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "bill.esterson.mp@parliament.uk",
     "quotes": []
   },
   {
@@ -376,6 +936,26 @@
     "quotes": []
   },
   {
+    "name": "Blake Stephenson",
+    "party": "Conservative",
+    "constituency": "Mid Bedfordshire",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "blake.stephenson.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Bob Blackman",
+    "party": "Conservative",
+    "constituency": "Harrow East",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "bob.blackman.mp@parliament.uk",
+    "quotes": []
+  },
+  {
     "name": "Bobby Dean",
     "party": "Liberal Democrat",
     "constituency": "Carshalton and Wallington",
@@ -383,6 +963,16 @@
     "appg_role": "Member",
     "nc31_signatory": true,
     "parliamentary_email": "bobby.dean.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Bradley Thomas",
+    "party": "Conservative",
+    "constituency": "Bromsgrove",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "bradley.thomas.mp@parliament.uk",
     "quotes": []
   },
   {
@@ -396,6 +986,16 @@
     "quotes": []
   },
   {
+    "name": "Brian Leishman",
+    "party": "Labour",
+    "constituency": "Alloa and Grangemouth",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "brian.leishman.mp@parliament.uk",
+    "quotes": []
+  },
+  {
     "name": "Brian Mathew",
     "party": "Liberal Democrat",
     "constituency": "Melksham and Devizes",
@@ -406,6 +1006,26 @@
     "quotes": []
   },
   {
+    "name": "Bridget Phillipson",
+    "party": "Labour",
+    "constituency": "Houghton and Sunderland South",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "bridget.phillipson.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Callum Anderson",
+    "party": "Labour",
+    "constituency": "Buckingham and Bletchley",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "callum.anderson.mp@parliament.uk",
+    "quotes": []
+  },
+  {
     "name": "Calum Miller",
     "party": "Liberal Democrat",
     "constituency": "Bicester and Woodstock",
@@ -413,6 +1033,16 @@
     "appg_role": "Member",
     "nc31_signatory": true,
     "parliamentary_email": "calum.miller.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Calvin Bailey",
+    "party": "Labour",
+    "constituency": "Leyton and Wanstead",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "calvin.bailey.mp@parliament.uk",
     "quotes": []
   },
   {
@@ -436,6 +1066,46 @@
     "quotes": []
   },
   {
+    "name": "Carla Lockhart",
+    "party": "Democratic Unionist Party",
+    "constituency": "Upper Bann",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "carla.lockhart.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Caroline Dinenage",
+    "party": "Conservative",
+    "constituency": "Gosport",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "caroline.dinenage.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Caroline Johnson",
+    "party": "Conservative",
+    "constituency": "Sleaford and North Hykeham",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "caroline.johnson.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Caroline Nokes",
+    "party": "Conservative",
+    "constituency": "Romsey and Southampton North",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "caroline.nokes.mp@parliament.uk",
+    "quotes": []
+  },
+  {
     "name": "Caroline Voaden",
     "party": "Liberal Democrat",
     "constituency": "South Devon",
@@ -443,6 +1113,16 @@
     "appg_role": "Member",
     "nc31_signatory": true,
     "parliamentary_email": "caroline.voaden.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Carolyn Harris",
+    "party": "Labour",
+    "constituency": "Neath and Swansea East",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "carolyn.harris.mp@parliament.uk",
     "quotes": []
   },
   {
@@ -466,6 +1146,26 @@
     "quotes": []
   },
   {
+    "name": "Cathal Mallaghan",
+    "party": "Sinn Féin",
+    "constituency": "Mid Ulster",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "cathal.mallaghan.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Catherine Atkinson",
+    "party": "Labour",
+    "constituency": "Derby North",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "catherine.atkinson.mp@parliament.uk",
+    "quotes": []
+  },
+  {
     "name": "Catherine Fookes",
     "party": "Labour",
     "constituency": "Monmouthshire",
@@ -473,6 +1173,36 @@
     "appg_role": "Member",
     "nc31_signatory": false,
     "parliamentary_email": "catherine.fookes.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Catherine McKinnell",
+    "party": "Labour",
+    "constituency": "Newcastle upon Tyne North",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "catherine.mckinnell.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Catherine West",
+    "party": "Labour",
+    "constituency": "Hornsey and Friern Barnet",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "catherine.west.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Charlie Dewhirst",
+    "party": "Conservative",
+    "constituency": "Bridlington and The Wolds",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "charlie.dewhirst.mp@parliament.uk",
     "quotes": []
   },
   {
@@ -496,6 +1226,26 @@
     "quotes": []
   },
   {
+    "name": "Charlotte Nichols",
+    "party": "Labour",
+    "constituency": "Warrington North",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "charlotte.nichols.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Chi Onwurah",
+    "party": "Labour",
+    "constituency": "Newcastle upon Tyne Central and West",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "chi.onwurah.mp@parliament.uk",
+    "quotes": []
+  },
+  {
     "name": "Chris Bloore",
     "party": "Labour",
     "constituency": "Redditch",
@@ -503,6 +1253,16 @@
     "appg_role": null,
     "nc31_signatory": true,
     "parliamentary_email": "chris.bloore.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Chris Bryant",
+    "party": "Labour",
+    "constituency": "Rhondda and Ogmore",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "chris.bryant.mp@parliament.uk",
     "quotes": []
   },
   {
@@ -526,6 +1286,36 @@
     "quotes": []
   },
   {
+    "name": "Chris Elmore",
+    "party": "Labour",
+    "constituency": "Bridgend",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "Chris.Elmore.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Chris Evans",
+    "party": "Labour (Co-op)",
+    "constituency": "Caerphilly",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "chris.evans.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Chris Hazzard",
+    "party": "Sinn Féin",
+    "constituency": "South Down",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "chris.hazzard.mp@parliament.uk",
+    "quotes": []
+  },
+  {
     "name": "Chris Hinchliff",
     "party": "Labour",
     "constituency": "North East Hertfordshire",
@@ -533,6 +1323,16 @@
     "appg_role": null,
     "nc31_signatory": true,
     "parliamentary_email": "chris.hinchliff.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Chris Kane",
+    "party": "Labour",
+    "constituency": "Stirling and Strathallan",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "chris.kane.mp@parliament.uk",
     "quotes": []
   },
   {
@@ -546,6 +1346,76 @@
     "quotes": []
   },
   {
+    "name": "Chris McDonald",
+    "party": "Labour",
+    "constituency": "Stockton North",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "chris.mcdonald.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Chris Murray",
+    "party": "Labour",
+    "constituency": "Edinburgh East and Musselburgh",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "chris.murray.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Chris Philp",
+    "party": "Conservative",
+    "constituency": "Croydon South",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "chris.philp.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Chris Vince",
+    "party": "Labour (Co-op)",
+    "constituency": "Harlow",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "chris.vince.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Chris Ward",
+    "party": "Labour",
+    "constituency": "Brighton Kemptown and Peacehaven",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "chris.ward.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Chris Webb",
+    "party": "Labour",
+    "constituency": "Blackpool South",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "chris.webb.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Christian Wakeford",
+    "party": "Labour",
+    "constituency": "Bury South",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "christian.wakeford.mp@parliament.uk",
+    "quotes": []
+  },
+  {
     "name": "Christine Jardine",
     "party": "Liberal Democrat",
     "constituency": "Edinburgh West",
@@ -553,6 +1423,26 @@
     "appg_role": null,
     "nc31_signatory": true,
     "parliamentary_email": "christine.jardine.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Christopher Chope",
+    "party": "Conservative",
+    "constituency": "Christchurch",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "chopec@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Claire Coutinho",
+    "party": "Conservative",
+    "constituency": "East Surrey",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "claire.coutinho.mp@parliament.uk",
     "quotes": []
   },
   {
@@ -566,6 +1456,26 @@
     "quotes": []
   },
   {
+    "name": "Claire Hazelgrove",
+    "party": "Labour",
+    "constituency": "Filton and Bradley Stoke",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "claire.hazelgrove.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Claire Hughes",
+    "party": "Labour",
+    "constituency": "Bangor Aberconwy",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "claire.hughes.mp@parliament.uk",
+    "quotes": []
+  },
+  {
     "name": "Claire Young",
     "party": "Liberal Democrat",
     "constituency": "Thornbury and Yate",
@@ -573,6 +1483,26 @@
     "appg_role": "Member",
     "nc31_signatory": true,
     "parliamentary_email": "claire.young.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Clive Betts",
+    "party": "Labour",
+    "constituency": "Sheffield South East",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "officeofclivebettsmp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Clive Efford",
+    "party": "Labour",
+    "constituency": "Eltham and Chislehurst",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "clive.efford.mp@parliament.uk",
     "quotes": []
   },
   {
@@ -596,6 +1526,16 @@
     "quotes": []
   },
   {
+    "name": "Colum Eastwood",
+    "party": "Social Democratic & Labour Party",
+    "constituency": "Foyle",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "colum.eastwood.mp@parliament.uk",
+    "quotes": []
+  },
+  {
     "name": "Connor Naismith",
     "party": "Labour",
     "constituency": "Crewe and Nantwich",
@@ -606,6 +1546,16 @@
     "quotes": []
   },
   {
+    "name": "Connor Rand",
+    "party": "Labour",
+    "constituency": "Altrincham and Sale West",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "connor.rand.mp@parliament.uk",
+    "quotes": []
+  },
+  {
     "name": "Daisy Cooper",
     "party": "Liberal Democrat",
     "constituency": "St Albans",
@@ -613,6 +1563,96 @@
     "appg_role": null,
     "nc31_signatory": true,
     "parliamentary_email": "daisy.cooper.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Damian Hinds",
+    "party": "Conservative",
+    "constituency": "East Hampshire",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "damian.hinds.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Damien Egan",
+    "party": "Labour",
+    "constituency": "Bristol North East",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "damien.egan.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Dan Aldridge",
+    "party": "Labour",
+    "constituency": "Weston-super-Mare",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "daniel.aldridge.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Dan Carden",
+    "party": "Labour",
+    "constituency": "Liverpool Walton",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "dan.carden.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Dan Jarvis",
+    "party": "Labour",
+    "constituency": "Barnsley North",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "dan.jarvis.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Dan Norris",
+    "party": "Independent",
+    "constituency": "North East Somerset and Hanham",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "dan.norris.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Dan Tomlinson",
+    "party": "Labour",
+    "constituency": "Chipping Barnet",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "dan.tomlinson.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Daniel Francis",
+    "party": "Labour",
+    "constituency": "Bexleyheath and Crayford",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "daniel.francis.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Daniel Zeichner",
+    "party": "Labour",
+    "constituency": "Cambridge",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": null,
     "quotes": []
   },
   {
@@ -636,6 +1676,26 @@
     "quotes": []
   },
   {
+    "name": "Danny Kruger",
+    "party": "Reform UK",
+    "constituency": "East Wiltshire",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "danny.kruger.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Darren Jones",
+    "party": "Labour",
+    "constituency": "Bristol North West",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "darren.jones.mp@parliament.uk",
+    "quotes": []
+  },
+  {
     "name": "Darren Paffey",
     "party": "Labour",
     "constituency": "Southampton Itchen",
@@ -656,6 +1716,36 @@
     "quotes": []
   },
   {
+    "name": "Dave Robertson",
+    "party": "Labour",
+    "constituency": "Lichfield",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "dave.robertson.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "David Baines",
+    "party": "Labour",
+    "constituency": "St Helens North",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "david.baines.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "David Burton-Sampson",
+    "party": "Labour",
+    "constituency": "Southend West and Leigh",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "david.burtonsampson.mp@parliament.uk",
+    "quotes": []
+  },
+  {
     "name": "David Chadwick",
     "party": "Liberal Democrat",
     "constituency": "Brecon, Radnor and Cwm Tawe",
@@ -663,6 +1753,106 @@
     "appg_role": "Member",
     "nc31_signatory": true,
     "parliamentary_email": "david.chadwick.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "David Davis",
+    "party": "Conservative",
+    "constituency": "Goole and Pocklington",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "david.davis.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "David Lammy",
+    "party": "Labour",
+    "constituency": "Tottenham",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "david.lammy.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "David Mundell",
+    "party": "Conservative",
+    "constituency": "Dumfriesshire, Clydesdale and Tweeddale",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "david.mundell.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "David Pinto-Duschinsky",
+    "party": "Labour",
+    "constituency": "Hendon",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "david.pintoduschinsky.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "David Reed",
+    "party": "Conservative",
+    "constituency": "Exmouth and Exeter East",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "david.reed.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "David Simmonds",
+    "party": "Conservative",
+    "constituency": "Ruislip, Northwood and Pinner",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "david.simmonds.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "David Smith",
+    "party": "Labour",
+    "constituency": "North Northumberland",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "david.smith.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "David Taylor",
+    "party": "Labour",
+    "constituency": "Hemel Hempstead",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "david.taylor.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "David Williams",
+    "party": "Labour",
+    "constituency": "Stoke-on-Trent North",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "david.williams.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Dawn Butler",
+    "party": "Labour",
+    "constituency": "Brent East",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "dawn.butler.mp@parliament.uk",
     "quotes": []
   },
   {
@@ -676,6 +1866,76 @@
     "quotes": []
   },
   {
+    "name": "Deirdre Costigan",
+    "party": "Labour",
+    "constituency": "Ealing Southall",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "deirdre.costigan.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Derek Twigg",
+    "party": "Labour",
+    "constituency": "Widnes and Halewood",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "derek.twigg.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Desmond Swayne",
+    "party": "Conservative",
+    "constituency": "New Forest West",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "swayned@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Diana Johnson",
+    "party": "Labour",
+    "constituency": "Kingston upon Hull North and Cottingham",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "johnsond@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Diane Abbott",
+    "party": "Independent",
+    "constituency": "Hackney North and Stoke Newington",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "diane.abbott.office@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Douglas Alexander",
+    "party": "Labour (Co-op)",
+    "constituency": "Lothian East",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "douglas.alexander.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Douglas Lumsden",
+    "party": "Conservative",
+    "constituency": "Aberdeen South",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "douglas.lumsden.mp@parliament.uk",
+    "quotes": []
+  },
+  {
     "name": "Douglas McAllister",
     "party": "Labour",
     "constituency": "West Dunbartonshire",
@@ -686,23 +1946,53 @@
     "quotes": []
   },
   {
-    "name": "Dr Allison Gardner",
-    "party": "Labour",
-    "constituency": "Stoke-on-Trent South",
+    "name": "Dáire Hughes",
+    "party": "Sinn Féin",
+    "constituency": "Newry and Armagh",
     "appg_fair_elections_member": false,
     "appg_role": null,
-    "nc31_signatory": true,
-    "parliamentary_email": "allison.gardner.mp@parliament.uk",
+    "nc31_signatory": false,
+    "parliamentary_email": "daire.hughes.mp@parliament.uk",
     "quotes": []
   },
   {
-    "name": "Dr Zubir Ahmed",
-    "party": "Labour",
-    "constituency": "Glasgow South West",
+    "name": "Ed Davey",
+    "party": "Liberal Democrat",
+    "constituency": "Kingston and Surbiton",
     "appg_fair_elections_member": false,
     "appg_role": null,
-    "nc31_signatory": true,
-    "parliamentary_email": "zubir.ahmed.mp@parliament.uk",
+    "nc31_signatory": false,
+    "parliamentary_email": "edward.davey.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Ed Miliband",
+    "party": "Labour",
+    "constituency": "Doncaster North",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "ed.miliband.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Edward Argar",
+    "party": "Conservative",
+    "constituency": "Melton and Syston",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "edward.argar.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Edward Leigh",
+    "party": "Conservative",
+    "constituency": "Gainsborough",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "edward.leigh.mp@parliament.uk",
     "quotes": []
   },
   {
@@ -716,6 +2006,16 @@
     "quotes": []
   },
   {
+    "name": "Elaine Stewart",
+    "party": "Labour",
+    "constituency": "Ayr, Carrick and Cumnock",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "elaine.stewart.mp@parliament.uk",
+    "quotes": []
+  },
+  {
     "name": "Ellie Chowns",
     "party": "Green Party",
     "constituency": "North Herefordshire",
@@ -723,6 +2023,26 @@
     "appg_role": "Officer",
     "nc31_signatory": true,
     "parliamentary_email": "ellie.chowns.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Ellie Reeves",
+    "party": "Labour",
+    "constituency": "Lewisham West and East Dulwich",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "ellie.reeves.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Elsie Blundell",
+    "party": "Labour",
+    "constituency": "Heywood and Middleton North",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "elsie.blundell.mp@parliament.uk",
     "quotes": []
   },
   {
@@ -736,6 +2056,66 @@
     "quotes": []
   },
   {
+    "name": "Emily Thornberry",
+    "party": "Labour",
+    "constituency": "Islington South and Finsbury",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "thornberrye@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Emma Foody",
+    "party": "Labour (Co-op)",
+    "constituency": "Cramlington and Killingworth",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "emma.foody.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Emma Hardy",
+    "party": "Labour",
+    "constituency": "Kingston upon Hull West and Haltemprice",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "emma.hardy.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Emma Lewell",
+    "party": "Labour",
+    "constituency": "South Shields",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "emma.lewell.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Emma Reynolds",
+    "party": "Labour",
+    "constituency": "Wycombe",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "emma.reynolds.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Esther McVey",
+    "party": "Conservative",
+    "constituency": "Tatton",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "esther.mcvey.mp@parliament.uk",
+    "quotes": []
+  },
+  {
     "name": "Euan Stainbank",
     "party": "Labour",
     "constituency": "Falkirk",
@@ -743,6 +2123,26 @@
     "appg_role": "Member",
     "nc31_signatory": true,
     "parliamentary_email": "euan.stainbank.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Fabian Hamilton",
+    "party": "Labour",
+    "constituency": "Leeds North East",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "fabian.hamilton.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Feryal Clark",
+    "party": "Labour",
+    "constituency": "Enfield North",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "feryal.clark.mp@parliament.uk",
     "quotes": []
   },
   {
@@ -796,6 +2196,136 @@
     "quotes": []
   },
   {
+    "name": "Gagan Mohindra",
+    "party": "Conservative",
+    "constituency": "South West Hertfordshire",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "gagan.mohindra.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Gareth Bacon",
+    "party": "Conservative",
+    "constituency": "Orpington",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "gareth.bacon.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Gareth Davies",
+    "party": "Conservative",
+    "constituency": "Grantham and Bourne",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "gareth.davies.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Gareth Snell",
+    "party": "Labour (Co-op)",
+    "constituency": "Stoke-on-Trent Central",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "gareth.snell.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Gareth Thomas",
+    "party": "Labour (Co-op)",
+    "constituency": "Harrow West",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "gareth.thomas.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Gavin Robinson",
+    "party": "Democratic Unionist Party",
+    "constituency": "Belfast East",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "gavin.robinson.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Gavin Williamson",
+    "party": "Conservative",
+    "constituency": "Stone, Great Wyrley and Penkridge",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "gavin.williamson.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Gen Kitchen",
+    "party": "Labour",
+    "constituency": "Wellingborough and Rushden",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "gen.kitchen.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Geoffrey Clifton-Brown",
+    "party": "Conservative",
+    "constituency": "North Cotswolds",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "cliftonbrowng@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Geoffrey Cox",
+    "party": "Conservative",
+    "constituency": "Torridge and Tavistock",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "coxg@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "George Freeman",
+    "party": "Conservative",
+    "constituency": "Mid Norfolk",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "george.freeman.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Georgia Gould",
+    "party": "Labour",
+    "constituency": "Queen's Park and Maida Vale",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "georgia.gould.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Gerald Jones",
+    "party": "Labour",
+    "constituency": "Merthyr Tydfil and Aberdare",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "gerald.jones.mp@parliament.uk",
+    "quotes": []
+  },
+  {
     "name": "Gideon Amos",
     "party": "Liberal Democrat",
     "constituency": "Taunton and Wellington",
@@ -803,6 +2333,46 @@
     "appg_role": null,
     "nc31_signatory": true,
     "parliamentary_email": "gideon.amos.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Gill Furniss",
+    "party": "Labour",
+    "constituency": "Sheffield Brightside and Hillsborough",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "gill.furniss.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Gill German",
+    "party": "Labour",
+    "constituency": "Clwyd North",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "gill.german.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Gordon McKee",
+    "party": "Labour",
+    "constituency": "Glasgow South",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "gordon.mckee.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Graeme Downie",
+    "party": "Labour",
+    "constituency": "Dunfermline and Dollar",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "graeme.downie.mp@parliament.uk",
     "quotes": []
   },
   {
@@ -816,6 +2386,26 @@
     "quotes": []
   },
   {
+    "name": "Graham Stringer",
+    "party": "Labour",
+    "constituency": "Blackley and Middleton South",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "graham.stringer.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Graham Stuart",
+    "party": "Conservative",
+    "constituency": "Beverley and Holderness",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "grahamstuartmp@parliament.uk",
+    "quotes": []
+  },
+  {
     "name": "Grahame Morris",
     "party": "Labour",
     "constituency": "Easington",
@@ -823,6 +2413,66 @@
     "appg_role": null,
     "nc31_signatory": true,
     "parliamentary_email": "grahame.morris.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Greg Smith",
+    "party": "Conservative",
+    "constituency": "Mid Buckinghamshire",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "greg.smith.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Gregor Poynton",
+    "party": "Labour",
+    "constituency": "Livingston",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "gregor.poynton.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Gregory Campbell",
+    "party": "Democratic Unionist Party",
+    "constituency": "East Londonderry",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "aaron.callan@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Gregory Stafford",
+    "party": "Conservative",
+    "constituency": "Farnham and Bordon",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "greg.stafford.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Gurinder Singh Josan",
+    "party": "Labour",
+    "constituency": "Smethwick",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "gurinder.josan.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Hamish Falconer",
+    "party": "Labour",
+    "constituency": "Lincoln",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "hamish.falconer.mp@parliament.uk",
     "quotes": []
   },
   {
@@ -843,6 +2493,46 @@
     "appg_role": "Member",
     "nc31_signatory": false,
     "parliamentary_email": "harpreet.uppal.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Harriet Cross",
+    "party": "Conservative",
+    "constituency": "Gordon and Buchan",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "harriet.cross.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Harriett Baldwin",
+    "party": "Conservative",
+    "constituency": "West Worcestershire",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "harriett.baldwin.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Heidi Alexander",
+    "party": "Labour",
+    "constituency": "Swindon South",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "heidi.alexander.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Helen Grant",
+    "party": "Conservative",
+    "constituency": "Maidstone and Malling",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "helen.grant.mp@parliament.uk",
     "quotes": []
   },
   {
@@ -876,6 +2566,56 @@
     "quotes": []
   },
   {
+    "name": "Helen Whately",
+    "party": "Conservative",
+    "constituency": "Faversham and Mid Kent",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "helen.whately.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Helena Dollimore",
+    "party": "Labour (Co-op)",
+    "constituency": "Hastings and Rye",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "helena.dollimore.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Henry Tufnell",
+    "party": "Labour",
+    "constituency": "Mid and South Pembrokeshire",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "henry.tufnell.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Hilary Benn",
+    "party": "Labour",
+    "constituency": "Leeds South",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "bennh@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Iain Duncan Smith",
+    "party": "Conservative",
+    "constituency": "Chingford and Woodford Green",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "Iain.duncansmith.mp@parliament.uk",
+    "quotes": []
+  },
+  {
     "name": "Ian Byrne",
     "party": "Labour",
     "constituency": "Liverpool West Derby",
@@ -883,6 +2623,26 @@
     "appg_role": "Member",
     "nc31_signatory": true,
     "parliamentary_email": "ian.byrne.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Ian Lavery",
+    "party": "Labour",
+    "constituency": "Blyth and Ashington",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "ian.lavery.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Ian Murray",
+    "party": "Labour",
+    "constituency": "Edinburgh South",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "ian.murray.mp@parliament.uk",
     "quotes": []
   },
   {
@@ -906,6 +2666,26 @@
     "quotes": []
   },
   {
+    "name": "Imogen Walker",
+    "party": "Labour",
+    "constituency": "Hamilton and Clyde Valley",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "imogen.walker.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Imran Hussain",
+    "party": "Labour",
+    "constituency": "Bradford East",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "imran.hussain.mp@parliament.uk",
+    "quotes": []
+  },
+  {
     "name": "Iqbal Mohamed",
     "party": "Independent",
     "constituency": "Dewsbury and Batley",
@@ -913,6 +2693,56 @@
     "appg_role": null,
     "nc31_signatory": true,
     "parliamentary_email": "iqbal.mohamed.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Irene Campbell",
+    "party": "Labour",
+    "constituency": "North Ayrshire and Arran",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "irene.campbell.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Jack Abbott",
+    "party": "Labour (Co-op)",
+    "constituency": "Ipswich",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "jack.abbott.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Jack Rankin",
+    "party": "Conservative",
+    "constituency": "Windsor",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "jack.rankin.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Jacob Collier",
+    "party": "Labour",
+    "constituency": "Burton and Uttoxeter",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "jacob.collier.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Jade Botterill",
+    "party": "Labour",
+    "constituency": "Ossett and Denby Dale",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "jade.botterill.mp@parliament.uk",
     "quotes": []
   },
   {
@@ -926,6 +2756,46 @@
     "quotes": []
   },
   {
+    "name": "James Asser",
+    "party": "Labour",
+    "constituency": "West Ham and Beckton",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "james.asser.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "James Cartlidge",
+    "party": "Conservative",
+    "constituency": "South Suffolk",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "james.cartlidge.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "James Cleverly",
+    "party": "Conservative",
+    "constituency": "Braintree",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "james.cleverly.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "James Frith",
+    "party": "Labour",
+    "constituency": "Bury North",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "james.frith.mp@parliament.uk",
+    "quotes": []
+  },
+  {
     "name": "James MacCleary",
     "party": "Liberal Democrat",
     "constituency": "Lewes",
@@ -933,6 +2803,26 @@
     "appg_role": "Member",
     "nc31_signatory": true,
     "parliamentary_email": "james.maccleary.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "James McMurdock",
+    "party": "Independent",
+    "constituency": "South Basildon and East Thurrock",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "james.mcmurdock.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "James Murray",
+    "party": "Labour (Co-op)",
+    "constituency": "Ealing North",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "james.murray.mp@parliament.uk",
     "quotes": []
   },
   {
@@ -946,6 +2836,16 @@
     "quotes": []
   },
   {
+    "name": "James Wild",
+    "party": "Conservative",
+    "constituency": "North West Norfolk",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "james.wild.mp@parliament.uk",
+    "quotes": []
+  },
+  {
     "name": "Jamie Stone",
     "party": "Liberal Democrat",
     "constituency": "Caithness, Sutherland and Easter Ross",
@@ -953,6 +2853,36 @@
     "appg_role": "Member",
     "nc31_signatory": false,
     "parliamentary_email": "jamie.stone.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Janet Daby",
+    "party": "Labour",
+    "constituency": "Lewisham East",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "janet.daby.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Jas Athwal",
+    "party": "Labour",
+    "constituency": "Ilford South",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "jas.athwal.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Jayne Kirkham",
+    "party": "Labour (Co-op)",
+    "constituency": "Truro and Falmouth",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "jayne.kirkham.mp@parliament.uk",
     "quotes": []
   },
   {
@@ -966,6 +2896,26 @@
     "quotes": []
   },
   {
+    "name": "Jeff Smith",
+    "party": "Labour",
+    "constituency": "Manchester Withington",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "jeff.smith.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Jen Craft",
+    "party": "Labour",
+    "constituency": "Thurrock",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "jen.craft.mp@parliament.uk",
+    "quotes": []
+  },
+  {
     "name": "Jenny Riddell-Carpenter",
     "party": "Labour",
     "constituency": "Suffolk Coastal",
@@ -973,6 +2923,46 @@
     "appg_role": "Member",
     "nc31_signatory": true,
     "parliamentary_email": "jenny.riddellcarpenter.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Jeremy Corbyn",
+    "party": "Your Party",
+    "constituency": "Islington North",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "jeremy.corbyn.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Jeremy Hunt",
+    "party": "Conservative",
+    "constituency": "Godalming and Ash",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "huntj@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Jeremy Wright",
+    "party": "Conservative",
+    "constituency": "Kenilworth and Southam",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "Jeremy.wright.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Jerome Mayhew",
+    "party": "Conservative",
+    "constituency": "Broadland and Fakenham",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "jerome.mayhew.mp@parliament.uk",
     "quotes": []
   },
   {
@@ -996,6 +2986,36 @@
     "quotes": []
   },
   {
+    "name": "Jess Phillips",
+    "party": "Labour",
+    "constituency": "Birmingham Yardley",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "jess.phillips.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Jesse Norman",
+    "party": "Conservative",
+    "constituency": "Hereford and South Herefordshire",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "jesse.norman.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Jessica Morden",
+    "party": "Labour",
+    "constituency": "Newport East",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "mordenj@parliament.uk",
+    "quotes": []
+  },
+  {
     "name": "Jessica Toale",
     "party": "Labour",
     "constituency": "Bournemouth West",
@@ -1003,6 +3023,16 @@
     "appg_role": "Member",
     "nc31_signatory": false,
     "parliamentary_email": "jessica.toale.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Jim Allister",
+    "party": "Traditional Unionist Voice",
+    "constituency": "North Antrim",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "jim.allister.mp@parliament.uk",
     "quotes": []
   },
   {
@@ -1016,13 +3046,73 @@
     "quotes": []
   },
   {
+    "name": "Jim McMahon",
+    "party": "Labour (Co-op)",
+    "constituency": "Oldham West, Chadderton and Royton",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "jim.mcmahon.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Jim Shannon",
+    "party": "Democratic Unionist Party",
+    "constituency": "Strangford",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "jim.shannon.mp@parliament.uk",
+    "quotes": []
+  },
+  {
     "name": "Jo Platt",
-    "party": "Labour",
+    "party": "Labour (Co-op)",
     "constituency": "Leigh and Atherton",
     "appg_fair_elections_member": false,
     "appg_role": null,
     "nc31_signatory": true,
     "parliamentary_email": "jo.platt.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Jo Stevens",
+    "party": "Labour",
+    "constituency": "Cardiff East",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "jo.stevens.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Jo White",
+    "party": "Labour",
+    "constituency": "Bassetlaw",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "jo.white.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Joani Reid",
+    "party": "Independent",
+    "constituency": "East Kilbride and Strathaven",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "joani.reid.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Jodie Gosling",
+    "party": "Labour",
+    "constituency": "Nuneaton",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "jodie.gosling.mp@parliament.uk",
     "quotes": []
   },
   {
@@ -1043,6 +3133,96 @@
     "appg_role": "Member",
     "nc31_signatory": false,
     "parliamentary_email": "joe.powell.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Joe Robertson",
+    "party": "Conservative",
+    "constituency": "Isle of Wight East",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "joe.robertson.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Johanna Baxter",
+    "party": "Labour",
+    "constituency": "Paisley and Renfrewshire South",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "johanna.baxter.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "John Cooper",
+    "party": "Conservative",
+    "constituency": "Dumfries and Galloway",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "john.cooper.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "John Finucane",
+    "party": "Sinn Féin",
+    "constituency": "Belfast North",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "john.finucane.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "John Glen",
+    "party": "Conservative",
+    "constituency": "Salisbury",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "john.glen.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "John Grady",
+    "party": "Labour",
+    "constituency": "Glasgow East",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "john.grady.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "John Hayes",
+    "party": "Conservative",
+    "constituency": "South Holland and The Deepings",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "hayesj@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "John Healey",
+    "party": "Labour",
+    "constituency": "Rawmarsh and Conisbrough",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "john.healey.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "John Lamont",
+    "party": "Conservative",
+    "constituency": "Berwickshire, Roxburgh and Selkirk",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "john.lamont.mp@parliament.uk",
     "quotes": []
   },
   {
@@ -1076,6 +3256,36 @@
     "quotes": []
   },
   {
+    "name": "John Whitby",
+    "party": "Labour",
+    "constituency": "Derbyshire Dales",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "john.whitby.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "John Whittingdale",
+    "party": "Conservative",
+    "constituency": "Maldon",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "john.whittingdale.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Jon Pearce",
+    "party": "Labour",
+    "constituency": "High Peak",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "jon.pearce.mp@parliament.uk",
+    "quotes": []
+  },
+  {
     "name": "Jon Trickett",
     "party": "Labour",
     "constituency": "Normanton and Hemsworth",
@@ -1086,6 +3296,26 @@
     "quotes": []
   },
   {
+    "name": "Jonathan Brash",
+    "party": "Labour",
+    "constituency": "Hartlepool",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "jonathan.brash.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Jonathan Davies",
+    "party": "Labour",
+    "constituency": "Mid Derbyshire",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "jonathan.davies.mp@parliament.uk",
+    "quotes": []
+  },
+  {
     "name": "Jonathan Hinder",
     "party": "Labour",
     "constituency": "Pendle and Clitheroe",
@@ -1093,6 +3323,16 @@
     "appg_role": "Member",
     "nc31_signatory": false,
     "parliamentary_email": "jonathan.hinder.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Jonathan Reynolds",
+    "party": "Labour (Co-op)",
+    "constituency": "Stalybridge and Hyde",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "jonathan.reynolds.mp@parliament.uk",
     "quotes": []
   },
   {
@@ -1126,6 +3366,16 @@
     "quotes": []
   },
   {
+    "name": "Josh MacAlister",
+    "party": "Labour",
+    "constituency": "Whitehaven and Workington",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "josh.macalister.mp@parliament.uk",
+    "quotes": []
+  },
+  {
     "name": "Josh Newbury",
     "party": "Labour",
     "constituency": "Cannock Chase",
@@ -1133,6 +3383,36 @@
     "appg_role": "Member",
     "nc31_signatory": false,
     "parliamentary_email": "josh.newbury.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Joshua Reynolds",
+    "party": "Liberal Democrat",
+    "constituency": "Maidenhead",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "parliamentary_email": "joshua.reynolds.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Joy Morrissey",
+    "party": "Conservative",
+    "constituency": "Beaconsfield",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "joy.morrissey.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Judith Cummins",
+    "party": "Labour",
+    "constituency": "Bradford South",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "judith.cummins.mp@parliament.uk",
     "quotes": []
   },
   {
@@ -1146,6 +3426,56 @@
     "quotes": []
   },
   {
+    "name": "Julia Lopez",
+    "party": "Conservative",
+    "constituency": "Hornchurch and Upminster",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "julia.lopez.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Julian Lewis",
+    "party": "Conservative",
+    "constituency": "New Forest East",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": null,
+    "quotes": []
+  },
+  {
+    "name": "Julian Smith",
+    "party": "Conservative",
+    "constituency": "Skipton and Ripon",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "julian.smith.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Julie Minns",
+    "party": "Labour",
+    "constituency": "Carlisle",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "julie.minns.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Juliet Campbell",
+    "party": "Labour",
+    "constituency": "Broxtowe",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "juliet.campbell.mp@parliament.uk",
+    "quotes": []
+  },
+  {
     "name": "Justin Madders",
     "party": "Labour",
     "constituency": "Ellesmere Port and Bromborough",
@@ -1153,6 +3483,36 @@
     "appg_role": null,
     "nc31_signatory": true,
     "parliamentary_email": "justin.madders.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Kanishka Narayan",
+    "party": "Labour",
+    "constituency": "Vale of Glamorgan",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "kanishka.narayan.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Karen Bradley",
+    "party": "Conservative",
+    "constituency": "Staffordshire Moorlands",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "karen.bradley.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Karin Smyth",
+    "party": "Labour",
+    "constituency": "Bristol South",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "karin.smyth.mp@parliament.uk",
     "quotes": []
   },
   {
@@ -1166,6 +3526,26 @@
     "quotes": []
   },
   {
+    "name": "Kate Dearden",
+    "party": "Labour (Co-op)",
+    "constituency": "Halifax",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "kate.dearden.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Kate Osamor",
+    "party": "Labour (Co-op)",
+    "constituency": "Edmonton and Winchmore Hill",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "kate.osamor.mp@parliament.uk",
+    "quotes": []
+  },
+  {
     "name": "Kate Osborne",
     "party": "Labour",
     "constituency": "Jarrow and Gateshead East",
@@ -1173,6 +3553,66 @@
     "appg_role": null,
     "nc31_signatory": true,
     "parliamentary_email": "kate.osborne.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Katie Lam",
+    "party": "Conservative",
+    "constituency": "Weald of Kent",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "katie.lam.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Katie White",
+    "party": "Labour",
+    "constituency": "Leeds North West",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "katie.white.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Katrina Murray",
+    "party": "Labour",
+    "constituency": "Cumbernauld and Kirkintilloch",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "katrina.murray.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Keir Mather",
+    "party": "Labour",
+    "constituency": "Selby",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "keir.mather.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Keir Starmer",
+    "party": "Labour",
+    "constituency": "Holborn and St Pancras",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "keir.starmer.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Kemi Badenoch",
+    "party": "Conservative",
+    "constituency": "North West Essex",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "kemi.badenoch.mp@parliament.uk",
     "quotes": []
   },
   {
@@ -1186,6 +3626,16 @@
     "quotes": []
   },
   {
+    "name": "Kerry McCarthy",
+    "party": "Labour",
+    "constituency": "Bristol East",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "kerry.mccarthy.mp@parliament.uk",
+    "quotes": []
+  },
+  {
     "name": "Kevin Bonavia",
     "party": "Labour",
     "constituency": "Stevenage",
@@ -1193,6 +3643,16 @@
     "appg_role": "Member",
     "nc31_signatory": false,
     "parliamentary_email": "kevin.bonavia.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Kevin Hollinrake",
+    "party": "Conservative",
+    "constituency": "Thirsk and Malton",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "kevin.hollinrake.mp@parliament.uk",
     "quotes": []
   },
   {
@@ -1206,6 +3666,26 @@
     "quotes": []
   },
   {
+    "name": "Kieran Mullan",
+    "party": "Conservative",
+    "constituency": "Bexhill and Battle",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "kieran.mullan.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Kim Johnson",
+    "party": "Labour",
+    "constituency": "Liverpool Riverside",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "kim.johnson.mp@parliament.uk",
+    "quotes": []
+  },
+  {
     "name": "Kim Leadbeater",
     "party": "Labour",
     "constituency": "Spen Valley",
@@ -1213,6 +3693,26 @@
     "appg_role": null,
     "nc31_signatory": true,
     "parliamentary_email": "kim.leadbeater.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Kirith Entwistle",
+    "party": "Labour",
+    "constituency": "Bolton North East",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "kirith.entwistle.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Kirsteen Sullivan",
+    "party": "Labour (Co-op)",
+    "constituency": "Bathgate and Linlithgow",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "kirsteen.sullivan.mp@parliament.uk",
     "quotes": []
   },
   {
@@ -1226,6 +3726,26 @@
     "quotes": []
   },
   {
+    "name": "Kirsty McNeill",
+    "party": "Labour (Co-op)",
+    "constituency": "Midlothian",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "kirsty.mcneill.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Kit Malthouse",
+    "party": "Conservative",
+    "constituency": "North West Hampshire",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "kit.malthouse.mp@parliament.uk",
+    "quotes": []
+  },
+  {
     "name": "Lara Bird",
     "party": "Scottish National Party",
     "constituency": "Arbroath and Broughty Ferry",
@@ -1236,6 +3756,56 @@
     "quotes": []
   },
   {
+    "name": "Laura Kyrke-Smith",
+    "party": "Labour",
+    "constituency": "Aylesbury",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "laura.kyrkesmith.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Laura Trott",
+    "party": "Conservative",
+    "constituency": "Sevenoaks",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "laura.trott.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Lauren Edwards",
+    "party": "Labour",
+    "constituency": "Rochester and Strood",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "lauren.edwards.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Lauren Sullivan",
+    "party": "Labour",
+    "constituency": "Gravesham",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "lauren.sullivan.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Laurence Turner",
+    "party": "Labour",
+    "constituency": "Birmingham Northfield",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "laurence.turner.mp@parliament.uk",
+    "quotes": []
+  },
+  {
     "name": "Layla Moran",
     "party": "Liberal Democrat",
     "constituency": "Oxford West and Abingdon",
@@ -1243,6 +3813,16 @@
     "appg_role": "Member",
     "nc31_signatory": true,
     "parliamentary_email": "layla.moran.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Lee Anderson",
+    "party": "Reform UK",
+    "constituency": "Ashfield",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "lee.anderson.mp@parliament.uk",
     "quotes": []
   },
   {
@@ -1276,6 +3856,116 @@
     "quotes": []
   },
   {
+    "name": "Leigh Ingham",
+    "party": "Labour",
+    "constituency": "Stafford",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "leigh.ingham.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Lewis Atkinson",
+    "party": "Labour",
+    "constituency": "Sunderland Central",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "lewis.atkinson.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Lewis Cocking",
+    "party": "Conservative",
+    "constituency": "Broxbourne",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "lewis.cocking.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Liam Byrne",
+    "party": "Labour",
+    "constituency": "Birmingham Hodge Hill and Solihull North",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "liam.byrne.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Liam Conlon",
+    "party": "Labour",
+    "constituency": "Beckenham and Penge",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "liam.conlon.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Lilian Greenwood",
+    "party": "Labour",
+    "constituency": "Nottingham South",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "lilian.greenwood.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Lillian Jones",
+    "party": "Labour",
+    "constituency": "Kilmarnock and Loudoun",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "lillian.jones.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Lincoln Jopp",
+    "party": "Conservative",
+    "constituency": "Spelthorne",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "lincoln.jopp.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Lindsay Hoyle",
+    "party": "Speaker",
+    "constituency": "Chorley",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "Lindsay.hoyle.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Linsey Farnsworth",
+    "party": "Labour",
+    "constituency": "Amber Valley",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "linsey.farnsworth.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Lisa Nandy",
+    "party": "Labour",
+    "constituency": "Wigan",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "lisa.nandy.mp@parliament.uk",
+    "quotes": []
+  },
+  {
     "name": "Lisa Smart",
     "party": "Liberal Democrat",
     "constituency": "Hazel Grove",
@@ -1296,6 +3986,16 @@
     "quotes": []
   },
   {
+    "name": "Liz Kendall",
+    "party": "Labour",
+    "constituency": "Leicester West",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "liz.kendall.mp@parliament.uk",
+    "quotes": []
+  },
+  {
     "name": "Liz Saville Roberts",
     "party": "Plaid Cymru",
     "constituency": "Dwyfor Meirionnydd",
@@ -1303,6 +4003,16 @@
     "appg_role": null,
     "nc31_signatory": true,
     "parliamentary_email": "liz.savilleroberts.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Liz Twist",
+    "party": "Labour",
+    "constituency": "Blaydon and Consett",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "liz.twist.mp@parliament.uk",
     "quotes": []
   },
   {
@@ -1333,6 +4043,16 @@
     "appg_role": "Member",
     "nc31_signatory": false,
     "parliamentary_email": "lloyd.hatton.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Lola McEvoy",
+    "party": "Labour",
+    "constituency": "Darlington",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "lola.mcevoy.mp@parliament.uk",
     "quotes": []
   },
   {
@@ -1456,6 +4176,26 @@
     "quotes": []
   },
   {
+    "name": "Louie French",
+    "party": "Conservative",
+    "constituency": "Old Bexley and Sidcup",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "louie.french.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Louise Haigh",
+    "party": "Labour",
+    "constituency": "Sheffield Heeley",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "louise.haigh.mp@parliament.uk",
+    "quotes": []
+  },
+  {
     "name": "Louise Sandher-Jones",
     "party": "Labour",
     "constituency": "North East Derbyshire",
@@ -1466,6 +4206,26 @@
     "quotes": []
   },
   {
+    "name": "Lucy Powell",
+    "party": "Labour (Co-op)",
+    "constituency": "Manchester Central",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": null,
+    "quotes": []
+  },
+  {
+    "name": "Lucy Rigby",
+    "party": "Labour",
+    "constituency": "Northampton North",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "lucy.rigby.mp@parliament.uk",
+    "quotes": []
+  },
+  {
     "name": "Luke Akehurst",
     "party": "Labour",
     "constituency": "North Durham",
@@ -1473,6 +4233,26 @@
     "appg_role": "Member",
     "nc31_signatory": true,
     "parliamentary_email": "luke.akehurst.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Luke Charters",
+    "party": "Labour",
+    "constituency": "York Outer",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "luke.charters.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Luke Evans",
+    "party": "Conservative",
+    "constituency": "Hinckley and Bosworth",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "luke.evans.mp@parliament.uk",
     "quotes": []
   },
   {
@@ -1496,6 +4276,16 @@
     "quotes": []
   },
   {
+    "name": "Luke Pollard",
+    "party": "Labour (Co-op)",
+    "constituency": "Plymouth Sutton and Devonport",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "luke.pollard.mp@parliament.uk",
+    "quotes": []
+  },
+  {
     "name": "Luke Taylor",
     "party": "Liberal Democrat",
     "constituency": "Sutton and Cheam",
@@ -1516,6 +4306,26 @@
     "quotes": []
   },
   {
+    "name": "Margaret Mullane",
+    "party": "Labour",
+    "constituency": "Dagenham and Rainham",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "margaret.mullane.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Maria Eagle",
+    "party": "Labour",
+    "constituency": "Liverpool Garston",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "maria.eagle.mp@parliament.uk",
+    "quotes": []
+  },
+  {
     "name": "Marie Goldman",
     "party": "Liberal Democrat",
     "constituency": "Chelmsford",
@@ -1523,6 +4333,106 @@
     "appg_role": "Member",
     "nc31_signatory": true,
     "parliamentary_email": "marie.goldman.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Marie Rimmer",
+    "party": "Labour",
+    "constituency": "St Helens South and Whiston",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "marie.rimmer.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Marie Tidball",
+    "party": "Labour",
+    "constituency": "Penistone and Stocksbridge",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "marie.tidball.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Mark Ferguson",
+    "party": "Labour",
+    "constituency": "Gateshead Central and Whickham",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "mark.ferguson.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Mark Francois",
+    "party": "Conservative",
+    "constituency": "Rayleigh and Wickford",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "mark.francois.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Mark Garnier",
+    "party": "Conservative",
+    "constituency": "Wyre Forest",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "mark.garnier.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Mark Hendrick",
+    "party": "Labour (Co-op)",
+    "constituency": "Preston",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "mark.hendrick.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Mark Pritchard",
+    "party": "Conservative",
+    "constituency": "The Wrekin",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "mark.pritchard.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Mark Sewards",
+    "party": "Labour",
+    "constituency": "Leeds South West and Morley",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "mark.sewards.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Mark Tami",
+    "party": "Labour",
+    "constituency": "Alyn and Deeside",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "tamim@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Markus Campbell-Savours",
+    "party": "Labour",
+    "constituency": "Penrith and Solway",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "markus.campbellsavours.mp@parliament.uk",
     "quotes": []
   },
   {
@@ -1536,6 +4446,36 @@
     "quotes": []
   },
   {
+    "name": "Martin McCluskey",
+    "party": "Labour",
+    "constituency": "Inverclyde and Renfrewshire West",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "martin.mccluskey.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Martin Rhodes",
+    "party": "Labour",
+    "constituency": "Glasgow North",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "martin.rhodes.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Martin Vickers",
+    "party": "Conservative",
+    "constituency": "Brigg and Immingham",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "martin.vickers.mp@parliament.uk",
+    "quotes": []
+  },
+  {
     "name": "Martin Wrigley",
     "party": "Liberal Democrat",
     "constituency": "Newton Abbot",
@@ -1546,6 +4486,56 @@
     "quotes": []
   },
   {
+    "name": "Mary Creagh",
+    "party": "Labour",
+    "constituency": "Coventry East",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "mary.creagh.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Mary Glindon",
+    "party": "Labour",
+    "constituency": "Newcastle upon Tyne East and Wallsend",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "mary.glindon.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Mary Kelly Foy",
+    "party": "Labour",
+    "constituency": "City of Durham",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "mary.foy.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Matt Bishop",
+    "party": "Labour",
+    "constituency": "Forest of Dean",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "matt.bishop.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Matt Rodda",
+    "party": "Labour",
+    "constituency": "Reading Central",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "matt.rodda.mp@parliament.uk",
+    "quotes": []
+  },
+  {
     "name": "Matt Turmaine",
     "party": "Labour",
     "constituency": "Watford",
@@ -1553,6 +4543,46 @@
     "appg_role": null,
     "nc31_signatory": true,
     "parliamentary_email": "matt.turmaine.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Matt Vickers",
+    "party": "Conservative",
+    "constituency": "Stockton West",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "matt.vickers.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Matt Western",
+    "party": "Labour",
+    "constituency": "Warwick and Leamington",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "matt.western.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Matthew Patrick",
+    "party": "Labour",
+    "constituency": "Wirral West",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "matthew.patrick.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Matthew Pennycook",
+    "party": "Labour",
+    "constituency": "Greenwich and Woolwich",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "matthew.pennycook.mp@parliament.uk",
     "quotes": []
   },
   {
@@ -1576,8 +4606,58 @@
     "quotes": []
   },
   {
-    "name": "Miatta Fahnbulleh",
+    "name": "Maya Ellis",
     "party": "Labour",
+    "constituency": "Ribble Valley",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "maya.ellis.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Meg Hillier",
+    "party": "Labour (Co-op)",
+    "constituency": "Hackney South and Shoreditch",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "meg.hillier.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Mel Stride",
+    "party": "Conservative",
+    "constituency": "Central Devon",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "mel.stride.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Melanie Onn",
+    "party": "Labour",
+    "constituency": "Great Grimsby and Cleethorpes",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "melanie.onn.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Melanie Ward",
+    "party": "Labour",
+    "constituency": "Cowdenbeath and Kirkcaldy",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "melanie.ward.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Miatta Fahnbulleh",
+    "party": "Labour (Co-op)",
     "constituency": "Peckham",
     "appg_fair_elections_member": false,
     "appg_role": null,
@@ -1596,6 +4676,36 @@
     "quotes": []
   },
   {
+    "name": "Michael Shanks",
+    "party": "Labour",
+    "constituency": "Rutherglen",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "michael.shanks.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Michael Wheeler",
+    "party": "Labour",
+    "constituency": "Worsley and Eccles",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "michael.wheeler.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Michelle Scrogham",
+    "party": "Labour",
+    "constituency": "Barrow and Furness",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "michelle.scrogham.mp@parliament.uk",
+    "quotes": []
+  },
+  {
     "name": "Michelle Welsh",
     "party": "Labour",
     "constituency": "Sherwood Forest",
@@ -1603,6 +4713,16 @@
     "appg_role": "Member",
     "nc31_signatory": true,
     "parliamentary_email": "michelle.welsh.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Mike Kane",
+    "party": "Labour",
+    "constituency": "Wythenshawe and Sale East",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "mike.kane.mp@parliament.uk",
     "quotes": []
   },
   {
@@ -1626,6 +4746,36 @@
     "quotes": []
   },
   {
+    "name": "Mike Tapp",
+    "party": "Labour",
+    "constituency": "Dover and Deal",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "mike.tapp.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Mike Wood",
+    "party": "Conservative",
+    "constituency": "Kingswinford and South Staffordshire",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "mike.wood.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Mims Davies",
+    "party": "Conservative",
+    "constituency": "East Grinstead and Uckfield",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "mims.davies.mp@parliament.uk",
+    "quotes": []
+  },
+  {
     "name": "Mohammad Yasin",
     "party": "Labour",
     "constituency": "Bedford",
@@ -1636,43 +4786,13 @@
     "quotes": []
   },
   {
-    "name": "Mr Joshua Reynolds",
+    "name": "Monica Harding",
     "party": "Liberal Democrat",
-    "constituency": "Maidenhead",
+    "constituency": "Esher and Walton",
     "appg_fair_elections_member": false,
     "appg_role": null,
-    "nc31_signatory": true,
-    "parliamentary_email": "joshua.reynolds.mp@parliament.uk",
-    "quotes": []
-  },
-  {
-    "name": "Mr Will Forster",
-    "party": "Liberal Democrat",
-    "constituency": "Woking",
-    "appg_fair_elections_member": false,
-    "appg_role": null,
-    "nc31_signatory": true,
-    "parliamentary_email": "will.forster.mp@parliament.uk",
-    "quotes": []
-  },
-  {
-    "name": "Ms Polly Billington",
-    "party": "Labour",
-    "constituency": "East Thanet",
-    "appg_fair_elections_member": false,
-    "appg_role": null,
-    "nc31_signatory": true,
-    "parliamentary_email": "polly.billington.mp@parliament.uk",
-    "quotes": []
-  },
-  {
-    "name": "Ms Stella Creasy",
-    "party": "Labour",
-    "constituency": "Walthamstow",
-    "appg_fair_elections_member": false,
-    "appg_role": null,
-    "nc31_signatory": true,
-    "parliamentary_email": "stella.creasy.mp@parliament.uk",
+    "nc31_signatory": false,
+    "parliamentary_email": "monica.harding.mp@parliament.uk",
     "quotes": []
   },
   {
@@ -1696,6 +4816,66 @@
     "quotes": []
   },
   {
+    "name": "Natalie Fleet",
+    "party": "Labour",
+    "constituency": "Bolsover",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "natalie.fleet.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Natasha Irons",
+    "party": "Labour",
+    "constituency": "Croydon East",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "natasha.irons.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Naushabah Khan",
+    "party": "Labour",
+    "constituency": "Gillingham and Rainham",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "naushabah.khan.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Navendu Mishra",
+    "party": "Labour",
+    "constituency": "Stockport",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "navendu.mishra.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Naz Shah",
+    "party": "Labour",
+    "constituency": "Bradford West",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "naz.shah.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Neil Coyle",
+    "party": "Labour",
+    "constituency": "Bermondsey and Old Southwark",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "neil.coyle.mp@parliament.uk",
+    "quotes": []
+  },
+  {
     "name": "Neil Duncan-Jordan",
     "party": "Labour",
     "constituency": "Poole",
@@ -1706,6 +4886,106 @@
     "quotes": []
   },
   {
+    "name": "Neil Hudson",
+    "party": "Conservative",
+    "constituency": "Epping Forest",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "neil.hudson.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Neil O'Brien",
+    "party": "Conservative",
+    "constituency": "Harborough, Oadby and Wigston",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "neil.obrien.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Neil Shastri-Hurst",
+    "party": "Conservative",
+    "constituency": "Solihull West and Shirley",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "neil.shastrihurst.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Nesil Caliskan",
+    "party": "Labour",
+    "constituency": "Barking",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "nesil.caliskan.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Nia Griffith",
+    "party": "Labour",
+    "constituency": "Llanelli",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "nia.griffith.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Nicholas Dakin",
+    "party": "Labour",
+    "constituency": "Scunthorpe",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "nic.dakin.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Nick Smith",
+    "party": "Labour",
+    "constituency": "Blaenau Gwent and Rhymney",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "nick.smith.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Nick Thomas-Symonds",
+    "party": "Labour",
+    "constituency": "Torfaen",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "nick.thomassymonds.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Nick Timothy",
+    "party": "Conservative",
+    "constituency": "West Suffolk",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "nick.timothy.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Nigel Huddleston",
+    "party": "Conservative",
+    "constituency": "Droitwich and Evesham",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "nigel.huddleston.mp@parliament.uk",
+    "quotes": []
+  },
+  {
     "name": "Noah Law",
     "party": "Labour",
     "constituency": "St Austell and Newquay",
@@ -1713,6 +4993,46 @@
     "appg_role": "Member",
     "nc31_signatory": true,
     "parliamentary_email": "noah.law.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Nusrat Ghani",
+    "party": "Conservative",
+    "constituency": "Sussex Weald",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "nusrat.ghani.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Oliver Dowden",
+    "party": "Conservative",
+    "constituency": "Hertsmere",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "oliver.dowden.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Oliver Ryan",
+    "party": "Labour (Co-op)",
+    "constituency": "Burnley",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "oliver.ryan.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Olivia Bailey",
+    "party": "Labour",
+    "constituency": "Reading West and Mid Berkshire",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "olivia.bailey.mp@parliament.uk",
     "quotes": []
   },
   {
@@ -1736,6 +5056,56 @@
     "quotes": []
   },
   {
+    "name": "Pam Cox",
+    "party": "Labour",
+    "constituency": "Colchester",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "pam.cox.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Pamela Nash",
+    "party": "Labour",
+    "constituency": "Motherwell, Wishaw and Carluke",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "pamela.nash.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Pat Cullen",
+    "party": "Sinn Féin",
+    "constituency": "Fermanagh and South Tyrone",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "pat.cullen.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Pat McFadden",
+    "party": "Labour",
+    "constituency": "Wolverhampton South East",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "mcfaddenp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Patricia Ferguson",
+    "party": "Labour",
+    "constituency": "Glasgow West",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "patricia.ferguson.mp@parliament.uk",
+    "quotes": []
+  },
+  {
     "name": "Patrick Hurley",
     "party": "Labour",
     "constituency": "Southport",
@@ -1743,6 +5113,16 @@
     "appg_role": "Member",
     "nc31_signatory": true,
     "parliamentary_email": "patrick.hurley.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Patrick Spencer",
+    "party": "Independent",
+    "constituency": "Central Suffolk and North Ipswich",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "patrick.spencer.mp@parliament.uk",
     "quotes": []
   },
   {
@@ -1756,6 +5136,26 @@
     "quotes": []
   },
   {
+    "name": "Paul Foster",
+    "party": "Labour",
+    "constituency": "South Ribble",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "paul.foster.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Paul Holmes",
+    "party": "Conservative",
+    "constituency": "Hamble Valley",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "paul.holmes.mp@parliament.uk",
+    "quotes": []
+  },
+  {
     "name": "Paul Kohler",
     "party": "Liberal Democrat",
     "constituency": "Wimbledon",
@@ -1763,6 +5163,46 @@
     "appg_role": "Member",
     "nc31_signatory": true,
     "parliamentary_email": "paul.kohler.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Paul Maskey",
+    "party": "Sinn Féin",
+    "constituency": "Belfast West",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "paul.maskey.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Paul Waugh",
+    "party": "Labour (Co-op)",
+    "constituency": "Rochdale",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "paul.waugh.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Paula Barker",
+    "party": "Labour",
+    "constituency": "Liverpool Wavertree",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "paula.barker.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Paulette Hamilton",
+    "party": "Labour",
+    "constituency": "Birmingham Erdington",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "paulette.hamilton.mp@parliament.uk",
     "quotes": []
   },
   {
@@ -1786,6 +5226,16 @@
     "quotes": []
   },
   {
+    "name": "Peter Bedford",
+    "party": "Conservative",
+    "constituency": "Mid Leicestershire",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "peter.bedford.mp@parliament.uk",
+    "quotes": []
+  },
+  {
     "name": "Peter Dowd",
     "party": "Labour",
     "constituency": "Bootle",
@@ -1796,6 +5246,36 @@
     "quotes": []
   },
   {
+    "name": "Peter Fortune",
+    "party": "Conservative",
+    "constituency": "Bromley and Biggin Hill",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "peter.fortune.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Peter Kyle",
+    "party": "Labour",
+    "constituency": "Hove and Portslade",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "peter.kyle.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Peter Lamb",
+    "party": "Labour",
+    "constituency": "Crawley",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "peter.lamb.mp@parliament.uk",
+    "quotes": []
+  },
+  {
     "name": "Peter Prinsley",
     "party": "Labour",
     "constituency": "Bury St Edmunds and Stowmarket",
@@ -1803,6 +5283,16 @@
     "appg_role": "Member",
     "nc31_signatory": true,
     "parliamentary_email": "peter.prinsley.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Peter Swallow",
+    "party": "Labour",
+    "constituency": "Bracknell",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "peter.swallow.mp@parliament.uk",
     "quotes": []
   },
   {
@@ -1826,6 +5316,36 @@
     "quotes": []
   },
   {
+    "name": "Polly Billington",
+    "party": "Labour",
+    "constituency": "East Thanet",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "parliamentary_email": "polly.billington.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Preet Kaur Gill",
+    "party": "Labour (Co-op)",
+    "constituency": "Birmingham Edgbaston",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "preet.gill.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Priti Patel",
+    "party": "Conservative",
+    "constituency": "Witham",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "withammp@parliament.uk",
+    "quotes": []
+  },
+  {
     "name": "Rachael Maskell",
     "party": "Labour (Co-op)",
     "constituency": "York Central",
@@ -1843,6 +5363,86 @@
     "appg_role": "Member",
     "nc31_signatory": false,
     "parliamentary_email": "rachel.blake.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Rachel Gilmour",
+    "party": "Liberal Democrat",
+    "constituency": "Tiverton and Minehead",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "rachel.gilmour.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Rachel Hopkins",
+    "party": "Labour",
+    "constituency": "Luton South and South Bedfordshire",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "rachel.hopkins.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Rachel Reeves",
+    "party": "Labour",
+    "constituency": "Leeds West and Pudsey",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "rachel.reeves.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Rachel Taylor",
+    "party": "Labour",
+    "constituency": "North Warwickshire and Bedworth",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "rachel.taylor.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Rebecca Harris",
+    "party": "Conservative",
+    "constituency": "Castle Point",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "rebecca.harris.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Rebecca Long Bailey",
+    "party": "Labour",
+    "constituency": "Salford",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "rebecca.longbailey.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Rebecca Paul",
+    "party": "Conservative",
+    "constituency": "Reigate",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "rebecca.paul.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Rebecca Smith",
+    "party": "Conservative",
+    "constituency": "South West Devon",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "rebecca.smith.mp@parliament.uk",
     "quotes": []
   },
   {
@@ -1876,6 +5476,26 @@
     "quotes": []
   },
   {
+    "name": "Richard Fuller",
+    "party": "Conservative",
+    "constituency": "North Bedfordshire",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "richard.fuller.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Richard Holden",
+    "party": "Conservative",
+    "constituency": "Basildon and Billericay",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "richard.holden.mp@parliament.uk",
+    "quotes": []
+  },
+  {
     "name": "Richard Quigley",
     "party": "Labour",
     "constituency": "Isle of Wight West",
@@ -1886,6 +5506,76 @@
     "quotes": []
   },
   {
+    "name": "Richard Tice",
+    "party": "Reform UK",
+    "constituency": "Boston and Skegness",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "richard.tice.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Rishi Sunak",
+    "party": "Conservative",
+    "constituency": "Richmond and Northallerton",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "rishi.sunak.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Robbie Moore",
+    "party": "Conservative",
+    "constituency": "Keighley and Ilkley",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "robbie.moore.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Robert Jenrick",
+    "party": "Reform UK",
+    "constituency": "Newark",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "robert.jenrick.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Robin Swann",
+    "party": "Ulster Unionist Party",
+    "constituency": "South Antrim",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "robin.swann.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Roger Gale",
+    "party": "Conservative",
+    "constituency": "Herne Bay and Sandwich",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "galerj@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Rosena Allin-Khan",
+    "party": "Labour",
+    "constituency": "Tooting",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "rosena.allinkhan.mp@parliament.uk",
+    "quotes": []
+  },
+  {
     "name": "Rosie Duffield",
     "party": "Independent",
     "constituency": "Canterbury",
@@ -1893,6 +5583,16 @@
     "appg_role": null,
     "nc31_signatory": true,
     "parliamentary_email": "rosie.duffield.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Rosie Wrighting",
+    "party": "Labour",
+    "constituency": "Kettering",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "rosie.wrighting.mp@parliament.uk",
     "quotes": []
   },
   {
@@ -1913,6 +5613,16 @@
     "appg_role": "Member",
     "nc31_signatory": true,
     "parliamentary_email": "rupa.huq.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Rupert Lowe",
+    "party": "Restore Britain",
+    "constituency": "Great Yarmouth",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "rupert.lowe.mp@parliament.uk",
     "quotes": []
   },
   {
@@ -1956,6 +5666,46 @@
     "quotes": []
   },
   {
+    "name": "Sally Jameson",
+    "party": "Labour (Co-op)",
+    "constituency": "Doncaster Central",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "sally.jameson.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Sam Carling",
+    "party": "Labour",
+    "constituency": "North West Cambridgeshire",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "sam.carling.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Sam Rushworth",
+    "party": "Labour",
+    "constituency": "Bishop Auckland",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "sam.rushworth.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Samantha Dixon",
+    "party": "Labour",
+    "constituency": "Chester North and Neston",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "Samantha.dixon.mp@parliament.uk",
+    "quotes": []
+  },
+  {
     "name": "Samantha Niblett",
     "party": "Labour",
     "constituency": "South Derbyshire",
@@ -1963,6 +5713,56 @@
     "appg_role": null,
     "nc31_signatory": true,
     "parliamentary_email": "samantha.niblett.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Sammy Wilson",
+    "party": "Democratic Unionist Party",
+    "constituency": "East Antrim",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "barronj@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Saqib Bhatti",
+    "party": "Conservative",
+    "constituency": "Meriden and Solihull East",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "saqib.bhatti@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Sarah Bool",
+    "party": "Conservative",
+    "constituency": "South Northamptonshire",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "sarah.bool.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Sarah Champion",
+    "party": "Labour",
+    "constituency": "Rotherham",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "sarah.champion.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Sarah Coombes",
+    "party": "Labour",
+    "constituency": "West Bromwich",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "sarah.coombes.mp@parliament.uk",
     "quotes": []
   },
   {
@@ -2007,12 +5807,22 @@
   },
   {
     "name": "Sarah Hall",
-    "party": "Labour",
+    "party": "Labour (Co-op)",
     "constituency": "Warrington South",
     "appg_fair_elections_member": false,
     "appg_role": null,
     "nc31_signatory": true,
     "parliamentary_email": "sarah.hall.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Sarah Jones",
+    "party": "Labour",
+    "constituency": "Croydon West",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "sarah.jones.mp@parliament.uk",
     "quotes": []
   },
   {
@@ -2023,6 +5833,66 @@
     "appg_role": "Member",
     "nc31_signatory": true,
     "parliamentary_email": "sarah.olney.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Sarah Owen",
+    "party": "Labour",
+    "constituency": "Luton North",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "sarah.owen.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Sarah Pochin",
+    "party": "Reform UK",
+    "constituency": "Runcorn and Helsby",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "sarah.pochin.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Sarah Russell",
+    "party": "Labour",
+    "constituency": "Congleton",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "sarah.russell.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Sarah Sackman",
+    "party": "Labour",
+    "constituency": "Finchley and Golders Green",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "sarah.sackman.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Sarah Smith",
+    "party": "Labour",
+    "constituency": "Hyndburn",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "sarah.smith.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Satvir Kaur",
+    "party": "Labour",
+    "constituency": "Southampton Test",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "satvir.kaur.mp@parliament.uk",
     "quotes": []
   },
   {
@@ -2056,6 +5926,56 @@
     "quotes": []
   },
   {
+    "name": "Seema Malhotra",
+    "party": "Labour (Co-op)",
+    "constituency": "Feltham and Heston",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "seema.malhotra.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Shabana Mahmood",
+    "party": "Labour",
+    "constituency": "Birmingham Ladywood",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "shabana.mahmood.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Sharon Hodgson",
+    "party": "Labour",
+    "constituency": "Washington and Gateshead South",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "sharon.hodgson.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Shaun Davies",
+    "party": "Labour",
+    "constituency": "Telford",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "shaun.davies.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Shivani Raja",
+    "party": "Conservative",
+    "constituency": "Leicester East",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "shivani.raja.mp@parliament.uk",
+    "quotes": []
+  },
+  {
     "name": "Shockat Adam",
     "party": "Independent",
     "constituency": "Leicester South",
@@ -2063,6 +5983,26 @@
     "appg_role": null,
     "nc31_signatory": true,
     "parliamentary_email": "shockat.adam.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Simon Hoare",
+    "party": "Conservative",
+    "constituency": "North Dorset",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "simon.hoare.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Simon Lightwood",
+    "party": "Labour (Co-op)",
+    "constituency": "Wakefield and Rothwell",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "simon.lightwood.mp@parliament.uk",
     "quotes": []
   },
   {
@@ -2076,6 +6016,16 @@
     "quotes": []
   },
   {
+    "name": "Siobhain McDonagh",
+    "party": "Labour",
+    "constituency": "Mitcham and Morden",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "mcdonaghs@parliament.uk",
+    "quotes": []
+  },
+  {
     "name": "Siân Berry",
     "party": "Green Party",
     "constituency": "Brighton Pavilion",
@@ -2083,6 +6033,26 @@
     "appg_role": "Member",
     "nc31_signatory": true,
     "parliamentary_email": "sian.berry.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Sojan Joseph",
+    "party": "Labour",
+    "constituency": "Ashford",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "sojan.joseph.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Sonia Kumar",
+    "party": "Labour",
+    "constituency": "Dudley",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "sonia.kumar.mp@parliament.uk",
     "quotes": []
   },
   {
@@ -2106,11 +6076,71 @@
     "quotes": []
   },
   {
-    "name": "Stephen Gethins",
-    "party": "Scottish National Party",
-    "constituency": "Former Member for Arbroath and Broughty Ferry",
-    "appg_fair_elections_member": true,
-    "appg_role": "Member",
+    "name": "Stella Creasy",
+    "party": "Labour (Co-op)",
+    "constituency": "Walthamstow",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "parliamentary_email": "stella.creasy.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Stephanie Peacock",
+    "party": "Labour",
+    "constituency": "Barnsley South",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "stephanie.peacock.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Stephen Doughty",
+    "party": "Labour (Co-op)",
+    "constituency": "Cardiff South and Penarth",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "stephen.doughty.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Stephen Kinnock",
+    "party": "Labour",
+    "constituency": "Aberafan Maesteg",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "stephen.kinnock.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Stephen Morgan",
+    "party": "Labour",
+    "constituency": "Portsmouth South",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "stephen.morgan.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Stephen Timms",
+    "party": "Labour",
+    "constituency": "East Ham",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "timmss@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Steve Barclay",
+    "party": "Conservative",
+    "constituency": "North East Cambridgeshire",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
     "nc31_signatory": false,
     "parliamentary_email": null,
     "quotes": []
@@ -2136,6 +6166,16 @@
     "quotes": []
   },
   {
+    "name": "Steve Reed",
+    "party": "Labour (Co-op)",
+    "constituency": "Streatham and Croydon North",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "steve.reed.mp@parliament.uk",
+    "quotes": []
+  },
+  {
     "name": "Steve Witherden",
     "party": "Labour",
     "constituency": "Montgomeryshire and Glyndŵr",
@@ -2156,6 +6196,46 @@
     "quotes": []
   },
   {
+    "name": "Stuart Anderson",
+    "party": "Conservative",
+    "constituency": "South Shropshire",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "stuart.anderson.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Stuart Andrew",
+    "party": "Conservative",
+    "constituency": "Daventry",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "stuart.andrew.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Suella Braverman",
+    "party": "Reform UK",
+    "constituency": "Fareham and Waterlooville",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "suella.braverman.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Sureena Brackenridge",
+    "party": "Labour",
+    "constituency": "Wolverhampton North East",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "sureena.brackenridge.mp@parliament.uk",
+    "quotes": []
+  },
+  {
     "name": "Susan Murray",
     "party": "Liberal Democrat",
     "constituency": "Mid Dunbartonshire",
@@ -2163,6 +6243,46 @@
     "appg_role": "Member",
     "nc31_signatory": true,
     "parliamentary_email": "susan.murray.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Tahir Ali",
+    "party": "Labour",
+    "constituency": "Birmingham Hall Green and Moseley",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "tahir.ali.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Taiwo Owatemi",
+    "party": "Labour",
+    "constituency": "Coventry North West",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "taiwo.owatemi.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Tanmanjeet Singh Dhesi",
+    "party": "Labour",
+    "constituency": "Slough",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "tan.dhesi.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Terry Jermy",
+    "party": "Labour",
+    "constituency": "South West Norfolk",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "terry.jermy.mp@parliament.uk",
     "quotes": []
   },
   {
@@ -2193,6 +6313,16 @@
     "appg_role": "Member",
     "nc31_signatory": false,
     "parliamentary_email": "tim.roca.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Toby Perkins",
+    "party": "Labour",
+    "constituency": "Chesterfield",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "toby.perkins.mp@parliament.uk",
     "quotes": []
   },
   {
@@ -2236,6 +6366,36 @@
     "quotes": []
   },
   {
+    "name": "Tom Rutland",
+    "party": "Labour",
+    "constituency": "East Worthing and Shoreham",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "tom.rutland.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Tom Tugendhat",
+    "party": "Conservative",
+    "constituency": "Tonbridge",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "tom.tugendhat.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Tonia Antoniazzi",
+    "party": "Labour",
+    "constituency": "Gower",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "tonia.antoniazzi.mp@parliament.uk",
+    "quotes": []
+  },
+  {
     "name": "Tony Vaughan",
     "party": "Labour",
     "constituency": "Folkestone and Hythe",
@@ -2246,6 +6406,66 @@
     "quotes": []
   },
   {
+    "name": "Torcuil Crichton",
+    "party": "Labour",
+    "constituency": "Na h-Eileanan an Iar",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "torcuil.crichton.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Torsten Bell",
+    "party": "Labour",
+    "constituency": "Swansea West",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "torsten.bell.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Tracy Gilbert",
+    "party": "Labour",
+    "constituency": "Edinburgh North and Leith",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "tracy.gilbert.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Tristan Osborne",
+    "party": "Labour",
+    "constituency": "Chatham and Aylesford",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "tristan.osborne.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Tulip Siddiq",
+    "party": "Labour",
+    "constituency": "Hampstead and Highgate",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "tulip.siddiq.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Uma Kumaran",
+    "party": "Labour",
+    "constituency": "Stratford and Bow",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "uma.kumaran.mp@parliament.uk",
+    "quotes": []
+  },
+  {
     "name": "Valerie Vaz",
     "party": "Labour",
     "constituency": "Walsall and Bloxwich",
@@ -2253,6 +6473,26 @@
     "appg_role": null,
     "nc31_signatory": true,
     "parliamentary_email": "valerie.vaz.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Vicky Foxcroft",
+    "party": "Labour",
+    "constituency": "Lewisham North",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "vicky.foxcroft.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Victoria Atkins",
+    "party": "Conservative",
+    "constituency": "Louth and Horncastle",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": null,
     "quotes": []
   },
   {
@@ -2276,6 +6516,16 @@
     "quotes": []
   },
   {
+    "name": "Warinder Juss",
+    "party": "Labour",
+    "constituency": "Wolverhampton West",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "warinder.juss.mp@parliament.uk",
+    "quotes": []
+  },
+  {
     "name": "Wendy Chamberlain",
     "party": "Liberal Democrat",
     "constituency": "North East Fife",
@@ -2286,6 +6536,16 @@
     "quotes": []
   },
   {
+    "name": "Wendy Morton",
+    "party": "Conservative",
+    "constituency": "Aldridge-Brownhills",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "wendy.morton.mp@parliament.uk",
+    "quotes": []
+  },
+  {
     "name": "Wera Hobhouse",
     "party": "Liberal Democrat",
     "constituency": "Bath",
@@ -2293,6 +6553,26 @@
     "appg_role": "Member",
     "nc31_signatory": true,
     "parliamentary_email": "wera.hobhouse.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Wes Streeting",
+    "party": "Labour",
+    "constituency": "Ilford North",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "wes.streeting.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Will Forster",
+    "party": "Liberal Democrat",
+    "constituency": "Woking",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "parliamentary_email": "will.forster.mp@parliament.uk",
     "quotes": []
   },
   {
@@ -2326,6 +6606,16 @@
     "quotes": []
   },
   {
+    "name": "Yvette Cooper",
+    "party": "Labour",
+    "constituency": "Pontefract, Castleford and Knottingley",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": "coopery@parliament.uk",
+    "quotes": []
+  },
+  {
     "name": "Zarah Sultana",
     "party": "Your Party",
     "constituency": "Coventry South",
@@ -2336,6 +6626,16 @@
     "quotes": []
   },
   {
+    "name": "Zubir Ahmed",
+    "party": "Labour",
+    "constituency": "Glasgow South West",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": true,
+    "parliamentary_email": "zubir.ahmed.mp@parliament.uk",
+    "quotes": []
+  },
+  {
     "name": "Zöe Franklin",
     "party": "Liberal Democrat",
     "constituency": "Guildford",
@@ -2343,6 +6643,16 @@
     "appg_role": "Member",
     "nc31_signatory": true,
     "parliamentary_email": "zoe.franklin.mp@parliament.uk",
+    "quotes": []
+  },
+  {
+    "name": "Órfhlaith Begley",
+    "party": "Sinn Féin",
+    "constituency": "West Tyrone",
+    "appg_fair_elections_member": false,
+    "appg_role": null,
+    "nc31_signatory": false,
+    "parliamentary_email": null,
     "quotes": []
   }
 ]

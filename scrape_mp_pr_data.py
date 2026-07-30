@@ -1,16 +1,27 @@
 """
 MP PR/electoral reform tracker - data collection script.
 
-Pulls two datasets and merges them into a single JSON file keyed by MP:
+Pulls three datasets and merges them into a single JSON file covering every
+current MP, not just the ones who happen to support electoral reform:
 
-1. APPG for Fair Elections membership (name, party, constituency)
+1. Every current House of Commons MP (name, party, constituency)
+   Source: members-api.parliament.uk (official JSON API) - this is the base
+   list; APPG/NC31 status is layered on top of it, defaulting to false for
+   anyone not on either list.
+
+2. APPG for Fair Elections membership (name, party, constituency)
    Source: parallelparliament.co.uk (unofficial aggregator; parliament's own
    register only lists officers, not full membership, so this is currently
-   the best public source for the full list)
+   the best public source for the full list). Includes a handful of Lords,
+   who aren't part of the Commons roster above and are added separately.
 
-2. NC31 signatories (Alex Sobel's amendment to the Representation of the
+3. NC31 signatories (Alex Sobel's amendment to the Representation of the
    People Bill, calling for a National Commission on Electoral Reform)
    Source: bills-api.parliament.uk (official JSON API)
+
+Every person in the output also gets a verified @parliament.uk contact
+email where the Members API has one on file (see fetch_parliamentary_email),
+so constituents can email their MP regardless of their reform stance.
 
 IMPORTANT - read before running:
 
@@ -89,12 +100,24 @@ MANUAL_QUOTES = {
 }
 
 
+HONORIFIC_RE = re.compile(r"^(Dr|Mr|Mrs|Ms|Miss|Sir|Dame|Prof)\.?\s+")
+
+
 def normalize_name(name):
     """Strip common honorific prefixes so the two sources match on the same
     person - the Bills API includes titles like "Dr"/"Mr" that
     parallelparliament.co.uk doesn't, which otherwise creates duplicate
     records for the same MP."""
-    return re.sub(r"^(Dr|Mr|Mrs|Ms|Miss|Sir|Dame|Prof)\.?\s+", "", name.strip()).lower()
+    return HONORIFIC_RE.sub("", name.strip()).lower()
+
+
+def display_name_for(name):
+    """Same prefix-stripping as normalize_name, but case-preserving - used
+    for the name actually shown in the UI. The official Members API's
+    nameDisplayAs field includes a title for some MPs (e.g. "Mr Bayo Alaba",
+    "Sir Julian Lewis") but not others, which otherwise makes the tracker
+    look inconsistently formatted between MPs from different sources."""
+    return HONORIFIC_RE.sub("", name.strip())
 
 
 def fetch_nc31_signatories():
@@ -191,6 +214,8 @@ def fetch_appg_members():
 
                 return rows.map(row => {
                     const nameCol = row.querySelector(':scope > div.col-sm-4');
+                    const photoLink = row.querySelector(':scope > a[href^="/mp/"], :scope > a[href^="/lord/"]');
+                    const house = photoLink.getAttribute('href').startsWith('/lord/') ? 'Lords' : 'Commons';
                     const h5 = nameCol.querySelector('h5');
                     const h6s = Array.from(nameCol.querySelectorAll('h6'));
                     const role = h6s[0] ? cleanText(h6s[0].textContent) : null;
@@ -205,6 +230,7 @@ def fetch_appg_members():
                     }
                     return {
                         name: h5 ? cleanText(h5.textContent) : null,
+                        house,
                         role,
                         party,
                         constituency
@@ -215,6 +241,43 @@ def fetch_appg_members():
 
         browser.close()
         return members
+
+
+def fetch_all_current_commons_mps():
+    """Fetch every current House of Commons MP from the official Members
+    API, so the tracker can show all ~650 MPs - not just the ones who
+    happen to be APPG members or NC31 signatories - each labelled with
+    both flags, defaulting to false where neither applies.
+
+    The Search endpoint caps at 20 results per page regardless of the
+    `take` value requested, so this pages through with `skip` until it's
+    collected everything the API reports in `totalResults`."""
+    members = []
+    skip = 0
+    page_size = 20
+    while True:
+        resp = SESSION.get(
+            "https://members-api.parliament.uk/api/Members/Search",
+            headers=HEADERS,
+            params={"House": 1, "IsCurrentMember": "true", "skip": skip, "take": page_size},
+            timeout=20,
+        )
+        resp.raise_for_status()
+        data = resp.json()
+        for item in data["items"]:
+            v = item["value"]
+            hm = v.get("latestHouseMembership") or {}
+            members.append({
+                "id": v["id"],
+                "name": v["nameDisplayAs"],
+                "party": (v.get("latestParty") or {}).get("name"),
+                "constituency": hm.get("membershipFrom"),
+            })
+        skip += page_size
+        if skip >= data["totalResults"]:
+            break
+        time.sleep(0.05)
+    return members
 
 
 def resolve_member_id(name):
@@ -270,33 +333,62 @@ def main():
     appg = fetch_appg_members()
     print(f"  Found {len(appg)} members")
 
+    print("Fetching the full current House of Commons roster...")
+    commons = fetch_all_current_commons_mps()
+    print(f"  Found {len(commons)} current MPs")
+
     appg_by_norm = {normalize_name(m["name"]): m for m in appg}
     nc31_by_norm = {normalize_name(s["name"]): s for s in nc31}
-    all_keys = set(appg_by_norm) | set(nc31_by_norm)
+    commons_by_norm = {normalize_name(m["name"]): m for m in commons}
+
+    # Base the output on every current Commons MP (so all ~650 show up, not
+    # just APPG members / NC31 signatories), plus any APPG members who are
+    # actually Lords - those wouldn't be in the Commons roster at all, and
+    # dropping them would lose data this tracker already had. Filtering by
+    # house (not just "missing from the Commons roster") matters: someone
+    # who's *left* the Commons since parallelparliament.co.uk last updated
+    # (e.g. lost a by-election) is also missing from commons_by_norm, and
+    # should be dropped, not resurrected as if they were a peer.
+    lords_only_keys = {
+        k for k, m in appg_by_norm.items()
+        if m.get("house") == "Lords" and k not in commons_by_norm
+    }
+    all_keys = set(commons_by_norm) | lords_only_keys
 
     print(f"Looking up parliamentary contact emails for {len(all_keys)} people...")
     unresolved = []
     records = []
     for key in all_keys:
+        c = commons_by_norm.get(key)
         a = appg_by_norm.get(key)
         n = nc31_by_norm.get(key)
-        display_name = a["name"] if a else n["name"]
+        display_name = display_name_for(c["name"] if c else (a["name"] if a else n["name"]))
 
-        # NC31 sponsor data already carries an official member ID; APPG-only
-        # members need a name lookup against the Members API.
-        member_id = n["member_id"] if n else resolve_member_id(display_name)
-
-        email = None
-        if member_id is not None:
-            email = fetch_parliamentary_email(member_id)
+        # The Commons roster and NC31 sponsor data both carry an official
+        # member ID already; Lords-only APPG members need a name lookup.
+        # A transient network blip mid-lookup shouldn't blow up a run that's
+        # already 20+ minutes into ~650 sequential requests - fall back to
+        # "unresolved" for this one person and keep going.
+        try:
+            if c is not None:
+                member_id = c["id"]
+            elif n is not None:
+                member_id = n["member_id"]
+            else:
+                member_id = resolve_member_id(display_name)
+            email = fetch_parliamentary_email(member_id) if member_id is not None else None
+        except requests.exceptions.RequestException as e:
+            print(f"    (network error looking up {display_name}, leaving unresolved: {e})")
+            member_id = None
+            email = None
         if member_id is None or email is None:
             unresolved.append(display_name)
-        time.sleep(0.05)  # spread out ~234 sequential requests to avoid connection resets
+        time.sleep(0.05)  # spread out ~650 sequential requests to avoid connection resets
 
         records.append({
             "name": display_name,
-            "party": (a["party"] if a else None) or (n["party"] if n else None),
-            "constituency": (a["constituency"] if a else None) or (n["constituency"] if n else None),
+            "party": (c["party"] if c else None) or (a["party"] if a else None) or (n["party"] if n else None),
+            "constituency": (c["constituency"] if c else None) or (a["constituency"] if a else None) or (n["constituency"] if n else None),
             "appg_fair_elections_member": a is not None,
             "appg_role": a["role"] if a else None,
             "nc31_signatory": n is not None,
