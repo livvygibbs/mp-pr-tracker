@@ -304,8 +304,8 @@
             ${mp.nc31_signatory ? '✓' : '—'} Signed NC31
           </span>
           ${mp.parliamentary_email ? `
-            <a class="tag contact" href="mailto:${mp.parliamentary_email}">
-              ✉ Contact
+            <a class="tag contact" href="mailto:${mp.parliamentary_email}" title="Click to email, or select the address to copy it">
+              ✉ ${mp.parliamentary_email}
             </a>
           ` : ''}
         </div>
