@@ -47,6 +47,7 @@ Output:
     mp_pr_data.json - list of MP records, e.g.:
     {
       "name": "Alex Sobel",
+      "house": "Commons",
       "party": "Labour (Co-op)",
       "constituency": "Leeds Central and Headingley",
       "appg_fair_elections_member": true,
@@ -387,6 +388,7 @@ def main():
 
         records.append({
             "name": display_name,
+            "house": "Commons" if c is not None else "Lords",
             "party": (c["party"] if c else None) or (a["party"] if a else None) or (n["party"] if n else None),
             "constituency": (c["constituency"] if c else None) or (a["constituency"] if a else None) or (n["constituency"] if n else None),
             "appg_fair_elections_member": a is not None,

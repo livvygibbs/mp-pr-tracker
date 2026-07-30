@@ -14,6 +14,7 @@
     --green-deep: #073D24;
     --purple: #6B2382;
     --gold: #6B2382;
+    --lords-red: #8A2E2E;
     --line: #C9BFA5;
     --serif: 'Source Serif 4', 'Iowan Old Style', Georgia, serif;
     --sans: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
@@ -153,6 +154,18 @@
     color: var(--ink-soft);
   }
 
+  .badge-lords {
+    font-family: var(--mono);
+    font-size: 0.68rem;
+    letter-spacing: 0.03em;
+    padding: 0.15rem 0.5rem;
+    border-radius: 2px;
+    border: 1px solid var(--lords-red);
+    color: var(--lords-red);
+    background: rgba(138, 46, 46, 0.08);
+    white-space: nowrap;
+  }
+
   .tags {
     display: flex;
     gap: 0.5rem;
@@ -250,6 +263,7 @@
     <button class="filter-btn" data-filter="appg">APPG member</button>
     <button class="filter-btn" data-filter="nc31">Signed NC31</button>
     <button class="filter-btn" data-filter="quote">Has a quote</button>
+    <button class="filter-btn" data-filter="lords">House of Lords</button>
   </div>
 
   <div class="result-count" id="resultCount"></div>
@@ -269,6 +283,7 @@
     if (activeFilter === "appg") return mp.appg_fair_elections_member;
     if (activeFilter === "nc31") return mp.nc31_signatory;
     if (activeFilter === "quote") return mp.quotes && mp.quotes.length > 0;
+    if (activeFilter === "lords") return mp.house === "Lords";
     return true;
   }
 
@@ -283,7 +298,8 @@
     const resultsEl = document.getElementById("results");
     const countEl = document.getElementById("resultCount");
 
-    countEl.textContent = `${filtered.length} MP${filtered.length === 1 ? "" : "s"} shown`;
+    const noun = activeFilter === "lords" ? "peer" : "MP";
+    countEl.textContent = `${filtered.length} ${noun}${filtered.length === 1 ? "" : "s"} shown`;
 
     if (filtered.length === 0) {
       resultsEl.innerHTML = `<div class="no-results">No MPs match that search.</div>`;
@@ -293,7 +309,7 @@
     resultsEl.innerHTML = filtered.map(mp => `
       <article class="entry">
         <div class="entry-top">
-          <span class="entry-name">${mp.name}</span>
+          <span class="entry-name">${mp.name}${mp.house === 'Lords' ? ' <span class="badge-lords">HOUSE OF LORDS</span>' : ''}</span>
           <span class="entry-meta">${mp.party} · ${mp.constituency}</span>
         </div>
         <div class="tags">
