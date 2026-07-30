@@ -41,6 +41,7 @@ Output:
       "appg_fair_elections_member": true,
       "appg_role": "Chair & Registered Contact",
       "nc31_signatory": true,
+      "parliamentary_email": "alex.sobel.mp@parliament.uk",
       "quotes": []
     }
 """
@@ -48,9 +49,11 @@ Output:
 import json
 import re
 import sys
+import time
 
 try:
     import requests
+    from requests.adapters import HTTPAdapter, Retry
 except ImportError:
     print("Missing dependency. Run: pip install requests")
     sys.exit(1)
@@ -58,6 +61,15 @@ except ImportError:
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (PR-tracker research tool; contact: your-email@example.com)"
 }
+
+# The Members API is unauthenticated and has no documented rate limit, but a
+# tight loop of 200+ sequential requests (one per MP, for the email lookups
+# in main()) reliably gets a handful of connections reset mid-request. A
+# shared session with retries absorbs those instead of crashing the run.
+SESSION = requests.Session()
+SESSION.mount("https://", HTTPAdapter(max_retries=Retry(
+    total=5, backoff_factor=0.5, status_forcelist=[429, 500, 502, 503, 504],
+)))
 
 APPG_URL = "https://www.parallelparliament.co.uk/APPG/fair-elections"
 
@@ -89,7 +101,7 @@ def fetch_nc31_signatories():
     """Fetch NC31 sponsors from the official Bills API. Finds the bill's
     current stage, then looks up the amendment by its marshalled number
     (e.g. "NC31") within that stage."""
-    stages_resp = requests.get(
+    stages_resp = SESSION.get(
         f"https://bills-api.parliament.uk/api/v1/Bills/{BILL_ID}/Stages",
         headers=HEADERS, timeout=20,
     )
@@ -99,7 +111,7 @@ def fetch_nc31_signatories():
         raise RuntimeError(f"No stages found for bill {BILL_ID}")
     current_stage_id = stages[-1]["id"]
 
-    amendments_resp = requests.get(
+    amendments_resp = SESSION.get(
         f"https://bills-api.parliament.uk/api/v1/Bills/{BILL_ID}/Stages/{current_stage_id}/Amendments",
         headers=HEADERS, params={"AmendmentNumber": AMENDMENT_NUMBER}, timeout=20,
     )
@@ -115,7 +127,7 @@ def fetch_nc31_signatories():
               f"Check the bill's current stage at https://bills.parliament.uk/bills/{BILL_ID}/stages")
         return []
 
-    detail_resp = requests.get(
+    detail_resp = SESSION.get(
         f"https://bills-api.parliament.uk/api/v1/Bills/{BILL_ID}/Stages/{current_stage_id}/Amendments/{match['amendmentId']}",
         headers=HEADERS, timeout=20,
     )
@@ -127,6 +139,7 @@ def fetch_nc31_signatories():
             "name": s["name"],
             "party": s["party"],
             "constituency": s["memberFrom"],
+            "member_id": s["memberId"],
         }
         for s in sponsors
     ]
@@ -204,6 +217,50 @@ def fetch_appg_members():
         return members
 
 
+def resolve_member_id(name):
+    """Look up a member's ID via the official Members API by name search.
+    Used for APPG-only members, since parallelparliament.co.uk doesn't
+    expose a parliament.uk member ID directly (only a name-based slug).
+
+    Returns None (rather than guessing) if there isn't exactly one active
+    match, so a bad ID never silently ends up in the output."""
+    resp = SESSION.get(
+        "https://members-api.parliament.uk/api/Members/Search",
+        headers=HEADERS, params={"Name": name}, timeout=20,
+    )
+    resp.raise_for_status()
+    items = resp.json()["items"]
+    values = [i.get("value") for i in items if i.get("value")]
+    active = [
+        v for v in values
+        if ((v.get("latestHouseMembership") or {}).get("membershipStatus") or {}).get("statusIsActive")
+    ]
+    if len(active) != 1:
+        return None
+    return active[0]["id"]
+
+
+def fetch_parliamentary_email(member_id):
+    """Fetch the official @parliament.uk email for a member ID from the
+    Members API's Contact endpoint - this is the verified source for the
+    firstname.lastname[.mp]@parliament.uk address, which isn't a reliable
+    enough pattern to generate from a name alone (accents get stripped,
+    hyphens get dropped, Lords use a different format than Commons MPs)."""
+    resp = SESSION.get(
+        f"https://members-api.parliament.uk/api/Members/{member_id}/Contact",
+        headers=HEADERS, timeout=20,
+    )
+    resp.raise_for_status()
+    # Filter by the @parliament.uk domain rather than the "type" label -
+    # some offices file this email under "Constituency office" instead of
+    # "Parliamentary office", so the label alone isn't a reliable signal.
+    for contact in resp.json()["value"]:
+        email = (contact.get("email") or "").strip()
+        if email.lower().endswith("@parliament.uk"):
+            return email
+    return None
+
+
 def main():
     print("Fetching NC31 signatories from bills-api.parliament.uk...")
     nc31 = fetch_nc31_signatories()
@@ -217,11 +274,25 @@ def main():
     nc31_by_norm = {normalize_name(s["name"]): s for s in nc31}
     all_keys = set(appg_by_norm) | set(nc31_by_norm)
 
+    print(f"Looking up parliamentary contact emails for {len(all_keys)} people...")
+    unresolved = []
     records = []
     for key in all_keys:
         a = appg_by_norm.get(key)
         n = nc31_by_norm.get(key)
         display_name = a["name"] if a else n["name"]
+
+        # NC31 sponsor data already carries an official member ID; APPG-only
+        # members need a name lookup against the Members API.
+        member_id = n["member_id"] if n else resolve_member_id(display_name)
+
+        email = None
+        if member_id is not None:
+            email = fetch_parliamentary_email(member_id)
+        if member_id is None or email is None:
+            unresolved.append(display_name)
+        time.sleep(0.05)  # spread out ~234 sequential requests to avoid connection resets
+
         records.append({
             "name": display_name,
             "party": (a["party"] if a else None) or (n["party"] if n else None),
@@ -229,10 +300,18 @@ def main():
             "appg_fair_elections_member": a is not None,
             "appg_role": a["role"] if a else None,
             "nc31_signatory": n is not None,
+            "parliamentary_email": email,
             "quotes": MANUAL_QUOTES.get(display_name, []),
         })
 
     records.sort(key=lambda r: r["name"])
+
+    if unresolved:
+        print(f"  Could not resolve a verified email for {len(unresolved)} people "
+              f"(ambiguous name match or no email on file) - contact button will be "
+              f"hidden for these in the UI:")
+        for name in unresolved:
+            print(f"    - {name}")
 
     with open("mp_pr_data.json", "w", encoding="utf-8") as f:
         json.dump(records, f, indent=2, ensure_ascii=False)

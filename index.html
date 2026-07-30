@@ -190,6 +190,18 @@
     color: var(--ink-soft);
   }
 
+  .tag.contact {
+    background: transparent;
+    border-color: var(--purple);
+    color: var(--purple);
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .tag.contact:hover {
+    background: rgba(107, 35, 130, 0.1);
+  }
+
   .quote {
     font-family: var(--serif);
     font-style: italic;
@@ -301,6 +313,11 @@
           <span class="tag ${mp.nc31_signatory ? 'yes' : 'no'}">
             ${mp.nc31_signatory ? '✓' : '—'} Signed NC31
           </span>
+          ${mp.parliamentary_email ? `
+            <a class="tag contact" href="mailto:${mp.parliamentary_email}">
+              ✉ Contact
+            </a>
+          ` : ''}
         </div>
         ${(mp.quotes || []).map(q => `
           <blockquote class="quote">
