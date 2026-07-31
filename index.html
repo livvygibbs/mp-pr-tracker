@@ -251,10 +251,11 @@
   }
 
   .explainer {
-    margin-bottom: 1.5rem;
+    flex-basis: 100%;
+    margin-top: 0.4rem;
     border: 1px solid var(--line);
     border-radius: 3px;
-    background: var(--paper-dark);
+    background: var(--paper);
   }
 
   .explainer summary {
@@ -383,16 +384,6 @@
 </header>
 
 <main>
-  <details class="explainer">
-    <summary>What do "APPG member" and "NC31" mean?</summary>
-    <div class="explainer-body">
-      <h3>APPG for Fair Elections</h3>
-      <p>An All-Party Parliamentary Group (APPG) is an informal, cross-party group of MPs and members of the House of Lords who share an interest in a particular issue. APPGs have no official status in Parliament, but membership signals where cross-party support exists. The <a href="https://www.parallelparliament.co.uk/APPG/fair-elections" target="_blank" rel="noopener">APPG for Fair Elections</a> campaigns to replace First Past the Post with a proportional voting system, and is chaired by Alex Sobel MP.</p>
-      <h3>NC31</h3>
-      <p>"NC31" is New Clause 31 — an amendment tabled by Alex Sobel to the Representation of the People Bill, calling for a National Commission on Electoral Reform to review how the UK votes for the House of Commons. As of July 2026 it's the most-signed amendment of this Parliament, with signatures from MPs across eight parties. Read the <a href="https://bills.parliament.uk/bills/4080/stages/20676/amendments/10035247" target="_blank" rel="noopener">amendment text on bills.parliament.uk</a>.</p>
-    </div>
-  </details>
-
   <div class="controls">
     <input type="text" id="search" placeholder="Search by name, constituency or party…" aria-label="Search MPs">
     <button class="filter-btn active" data-filter="all">All</button>
@@ -401,6 +392,16 @@
   <div class="status-filters">
     <button class="filter-btn" data-filter="appg">APPG member</button>
     <button class="filter-btn" data-filter="nc31">Signed NC31</button>
+
+    <details class="explainer">
+      <summary>What do "APPG member" and "NC31" mean?</summary>
+      <div class="explainer-body">
+        <h3>APPG for Fair Elections</h3>
+        <p>An All-Party Parliamentary Group (APPG) is an informal, cross-party group of MPs and members of the House of Lords who share an interest in a particular issue. APPGs have no official status in Parliament, but membership signals where cross-party support exists. The <a href="https://www.parallelparliament.co.uk/APPG/fair-elections" target="_blank" rel="noopener">APPG for Fair Elections</a> campaigns to replace First Past the Post with a proportional voting system, and is chaired by Alex Sobel MP.</p>
+        <h3>NC31</h3>
+        <p>"NC31" is New Clause 31 — an amendment tabled by Alex Sobel to the Representation of the People Bill, calling for a National Commission on Electoral Reform to review how the UK votes for the House of Commons. As of July 2026 it's the most-signed amendment of this Parliament, with signatures from MPs across eight parties. Read the <a href="https://bills.parliament.uk/bills/4080/stages/20676/amendments/10035247" target="_blank" rel="noopener">amendment text on bills.parliament.uk</a>.</p>
+      </div>
+    </details>
   </div>
 
   <div class="lords-filter-container">
