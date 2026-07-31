@@ -118,6 +118,68 @@
 
   .filter-btn:focus-visible { outline: 2px solid var(--green); outline-offset: 2px; }
 
+  .filter-btn.lords-filter {
+    border-color: var(--lords-red);
+    color: var(--lords-red);
+  }
+
+  .filter-btn.lords-filter:hover {
+    border-color: var(--lords-red);
+    color: var(--lords-red);
+    background: rgba(138, 46, 46, 0.08);
+  }
+
+  .filter-btn.lords-filter.active {
+    background: var(--lords-red);
+    border-color: var(--lords-red);
+    color: var(--paper);
+  }
+
+  .party-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    align-items: center;
+    padding: 0.9rem 1rem;
+    margin-bottom: 1.75rem;
+    border: 1px solid var(--line);
+    border-radius: 3px;
+    background: var(--paper-dark);
+  }
+
+  .party-filters-label {
+    font-family: var(--mono);
+    font-size: 0.72rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    margin-right: 0.2rem;
+  }
+
+  .party-btn {
+    font-family: var(--mono);
+    font-size: 0.76rem;
+    letter-spacing: 0.02em;
+    padding: 0.4rem 0.7rem;
+    background: transparent;
+    border: 1.5px solid var(--pcolor, var(--ink-soft));
+    color: var(--pcolor, var(--ink-soft));
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background 0.15s, color 0.15s;
+  }
+
+  .party-btn:hover {
+    background: color-mix(in srgb, var(--pcolor, var(--ink-soft)) 12%, transparent);
+  }
+
+  .party-btn.active {
+    background: var(--pcolor, var(--ink-soft));
+    color: var(--pcolor-text, var(--paper));
+  }
+
+  .party-btn:focus-visible { outline: 2px solid var(--green); outline-offset: 2px; }
+
   .result-count {
     font-family: var(--mono);
     font-size: 0.78rem;
@@ -314,8 +376,11 @@
     <button class="filter-btn active" data-filter="all">All</button>
     <button class="filter-btn" data-filter="appg">APPG member</button>
     <button class="filter-btn" data-filter="nc31">Signed NC31</button>
-    <button class="filter-btn" data-filter="quote">Has a quote</button>
-    <button class="filter-btn" data-filter="lords">House of Lords</button>
+    <button class="filter-btn lords-filter" data-filter="lords">House of Lords</button>
+  </div>
+
+  <div class="party-filters" id="partyFilters">
+    <span class="party-filters-label">Party:</span>
   </div>
 
   <div class="result-count" id="resultCount"></div>
@@ -329,14 +394,46 @@
 <script>
   let mpData = [];
   let activeFilter = "all";
+  let activeParty = null;
   let searchTerm = "";
+
+  // Standard UK party abbreviations and colours. "textDark" flags parties
+  // whose colour is too light for white text when the button is active.
+  const PARTY_INFO = {
+    "Labour": { abbr: "LAB", color: "#E4003B" },
+    "Labour (Co-op)": { abbr: "LAB", color: "#E4003B" },
+    "Conservative": { abbr: "CON", color: "#0087DC" },
+    "Liberal Democrat": { abbr: "LD", color: "#FAA61A" },
+    "Green Party": { abbr: "GRN", color: "#6AB023" },
+    "Scottish National Party": { abbr: "SNP", color: "#FDF38E", textDark: true },
+    "Reform UK": { abbr: "REF", color: "#12B6CF" },
+    "Plaid Cymru": { abbr: "PC", color: "#348837" },
+    "Democratic Unionist Party": { abbr: "DUP", color: "#D46A4C" },
+    "Sinn Féin": { abbr: "SF", color: "#326760" },
+    "Social Democratic & Labour Party": { abbr: "SDLP", color: "#4D8F15" },
+    "Ulster Unionist Party": { abbr: "UUP", color: "#48A5EE" },
+    "Alliance": { abbr: "APNI", color: "#F6CB43", textDark: true },
+    "Traditional Unionist Voice": { abbr: "TUV", color: "#0C0C95" },
+    "Independent": { abbr: "IND", color: "#909090" },
+    "Your Party": { abbr: "YP", color: "#E6007E" },
+    "Restore Britain": { abbr: "RB", color: "#4A4A4A" },
+    "Speaker": { abbr: "SPKR", color: "#4A4A4A" },
+  };
+
+  function partyInfo(party) {
+    return PARTY_INFO[party] || { abbr: party, color: "#4A4A4A" };
+  }
 
   function matchesFilter(mp) {
     if (activeFilter === "appg") return mp.appg_fair_elections_member;
     if (activeFilter === "nc31") return mp.nc31_signatory;
-    if (activeFilter === "quote") return mp.quotes && mp.quotes.length > 0;
     if (activeFilter === "lords") return mp.house === "Lords";
     return true;
+  }
+
+  function matchesParty(mp) {
+    if (!activeParty) return true;
+    return partyInfo(mp.party).abbr === activeParty;
   }
 
   function matchesSearch(mp) {
@@ -346,7 +443,7 @@
   }
 
   function render() {
-    const filtered = mpData.filter(mp => matchesFilter(mp) && matchesSearch(mp));
+    const filtered = mpData.filter(mp => matchesFilter(mp) && matchesParty(mp) && matchesSearch(mp));
     const resultsEl = document.getElementById("results");
     const countEl = document.getElementById("resultCount");
 
@@ -401,10 +498,50 @@
     });
   });
 
+  function buildPartyFilters() {
+    const counts = {};
+    mpData.forEach(mp => {
+      const info = partyInfo(mp.party);
+      counts[info.abbr] = (counts[info.abbr] || 0) + 1;
+    });
+    const abbrsByCount = Object.keys(counts).sort((a, b) => counts[b] - counts[a]);
+
+    const container = document.getElementById("partyFilters");
+    const allBtn = document.createElement("button");
+    allBtn.className = "party-btn active";
+    allBtn.textContent = "All parties";
+    allBtn.addEventListener("click", () => {
+      activeParty = null;
+      document.querySelectorAll(".party-btn").forEach(b => b.classList.remove("active"));
+      allBtn.classList.add("active");
+      render();
+    });
+    container.appendChild(allBtn);
+
+    abbrsByCount.forEach(abbr => {
+      const sample = mpData.find(mp => partyInfo(mp.party).abbr === abbr);
+      const info = partyInfo(sample.party);
+      const btn = document.createElement("button");
+      btn.className = "party-btn";
+      btn.textContent = `${info.abbr} (${counts[abbr]})`;
+      btn.style.setProperty("--pcolor", info.color);
+      if (info.textDark) btn.style.setProperty("--pcolor-text", "var(--ink)");
+      btn.addEventListener("click", () => {
+        activeParty = activeParty === abbr ? null : abbr;
+        document.querySelectorAll(".party-btn").forEach(b => b.classList.remove("active"));
+        if (activeParty) btn.classList.add("active");
+        else allBtn.classList.add("active");
+        render();
+      });
+      container.appendChild(btn);
+    });
+  }
+
   fetch("mp_pr_data.json")
     .then(r => r.json())
     .then(data => {
       mpData = data;
+      buildPartyFilters();
       render();
     })
     .catch(err => {
