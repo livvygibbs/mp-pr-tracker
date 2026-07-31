@@ -421,7 +421,7 @@
 
 <script>
   let mpData = [];
-  let activeFilter = "all";
+  let activeStatusFilters = new Set(); // any of "appg", "nc31", "lords" - independently toggled, combined with AND
   let activeParty = null;
   let searchTerm = "";
 
@@ -453,9 +453,9 @@
   }
 
   function matchesFilter(mp) {
-    if (activeFilter === "appg") return mp.appg_fair_elections_member;
-    if (activeFilter === "nc31") return mp.nc31_signatory;
-    if (activeFilter === "lords") return mp.house === "Lords";
+    if (activeStatusFilters.has("appg") && !mp.appg_fair_elections_member) return false;
+    if (activeStatusFilters.has("nc31") && !mp.nc31_signatory) return false;
+    if (activeStatusFilters.has("lords") && mp.house !== "Lords") return false;
     return true;
   }
 
@@ -477,7 +477,7 @@
     const resultsEl = document.getElementById("results");
     const countEl = document.getElementById("resultCount");
 
-    const noun = activeFilter === "lords" ? "peer" : "MP";
+    const noun = activeStatusFilters.has("lords") ? "peer" : "MP";
     countEl.textContent = `${filtered.length} ${noun}${filtered.length === 1 ? "" : "s"} shown`;
 
     if (filtered.length === 0) {
@@ -519,11 +519,34 @@
     render();
   });
 
-  document.querySelectorAll(".filter-btn").forEach(btn => {
+  // "All" resets the three status toggles below; appg/nc31/lords are
+  // independent toggles (not mutually exclusive) so any combination of
+  // them can be active at once, combined with AND in matchesFilter().
+  const allBtn = document.querySelector('[data-filter="all"]');
+  const statusToggleBtns = document.querySelectorAll('[data-filter="appg"], [data-filter="nc31"], [data-filter="lords"]');
+
+  function updateAllButtonState() {
+    allBtn.classList.toggle("active", activeStatusFilters.size === 0);
+  }
+
+  allBtn.addEventListener("click", () => {
+    activeStatusFilters.clear();
+    statusToggleBtns.forEach(b => b.classList.remove("active"));
+    updateAllButtonState();
+    render();
+  });
+
+  statusToggleBtns.forEach(btn => {
     btn.addEventListener("click", () => {
-      document.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("active"));
-      btn.classList.add("active");
-      activeFilter = btn.dataset.filter;
+      const key = btn.dataset.filter;
+      if (activeStatusFilters.has(key)) {
+        activeStatusFilters.delete(key);
+        btn.classList.remove("active");
+      } else {
+        activeStatusFilters.add(key);
+        btn.classList.add("active");
+      }
+      updateAllButtonState();
       render();
     });
   });
