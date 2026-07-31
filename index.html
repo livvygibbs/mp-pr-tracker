@@ -121,18 +121,40 @@
   .filter-btn.lords-filter {
     border-color: var(--lords-red);
     color: var(--lords-red);
+    background: rgba(138, 46, 46, 0.12);
   }
 
   .filter-btn.lords-filter:hover {
     border-color: var(--lords-red);
     color: var(--lords-red);
-    background: rgba(138, 46, 46, 0.08);
+    background: rgba(138, 46, 46, 0.2);
   }
 
   .filter-btn.lords-filter.active {
     background: var(--lords-red);
     border-color: var(--lords-red);
     color: var(--paper);
+  }
+
+  .status-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    align-items: center;
+    padding: 0.9rem 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid var(--line);
+    border-radius: 3px;
+    background: var(--paper-dark);
+  }
+
+  .lords-filter-container {
+    display: flex;
+    padding: 0.9rem 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid var(--lords-red);
+    border-radius: 3px;
+    background: rgba(138, 46, 46, 0.05);
   }
 
   .party-filters {
@@ -374,8 +396,14 @@
   <div class="controls">
     <input type="text" id="search" placeholder="Search by name, constituency or party…" aria-label="Search MPs">
     <button class="filter-btn active" data-filter="all">All</button>
+  </div>
+
+  <div class="status-filters">
     <button class="filter-btn" data-filter="appg">APPG member</button>
     <button class="filter-btn" data-filter="nc31">Signed NC31</button>
+  </div>
+
+  <div class="lords-filter-container">
     <button class="filter-btn lords-filter" data-filter="lords">House of Lords</button>
   </div>
 
@@ -443,6 +471,8 @@
   }
 
   function render() {
+    updatePartyCounts();
+
     const filtered = mpData.filter(mp => matchesFilter(mp) && matchesParty(mp) && matchesSearch(mp));
     const resultsEl = document.getElementById("results");
     const countEl = document.getElementById("resultCount");
@@ -523,6 +553,7 @@
       const info = partyInfo(sample.party);
       const btn = document.createElement("button");
       btn.className = "party-btn";
+      btn.dataset.abbr = abbr;
       btn.textContent = `${info.abbr} (${counts[abbr]})`;
       btn.style.setProperty("--pcolor", info.color);
       if (info.textDark) btn.style.setProperty("--pcolor-text", "var(--ink)");
@@ -534,6 +565,18 @@
         render();
       });
       container.appendChild(btn);
+    });
+  }
+
+  // Party button counts reflect how many MPs would match that party under
+  // the currently active APPG/NC31/Lords status filter - so e.g. clicking
+  // "APPG member" updates "LAB (411)" down to "LAB (87)" rather than
+  // always showing the unfiltered total.
+  function updatePartyCounts() {
+    document.querySelectorAll(".party-btn[data-abbr]").forEach(btn => {
+      const abbr = btn.dataset.abbr;
+      const count = mpData.filter(mp => matchesFilter(mp) && partyInfo(mp.party).abbr === abbr).length;
+      btn.textContent = `${abbr} (${count})`;
     });
   }
 
