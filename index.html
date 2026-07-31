@@ -166,6 +166,48 @@
     white-space: nowrap;
   }
 
+  .explainer {
+    margin-bottom: 1.5rem;
+    border: 1px solid var(--line);
+    border-radius: 3px;
+    background: var(--paper-dark);
+  }
+
+  .explainer summary {
+    cursor: pointer;
+    padding: 0.75rem 1rem;
+    font-family: var(--mono);
+    font-size: 0.82rem;
+    color: var(--ink-soft);
+    list-style: none;
+  }
+
+  .explainer summary::-webkit-details-marker { display: none; }
+
+  .explainer summary::before { content: "▸ "; }
+  .explainer[open] summary::before { content: "▾ "; }
+
+  .explainer-body {
+    padding: 0.2rem 1.1rem 1.1rem;
+    border-top: 1px solid var(--line);
+  }
+
+  .explainer-body h3 {
+    font-family: var(--serif);
+    font-size: 1rem;
+    margin: 1rem 0 0.3rem;
+  }
+
+  .explainer-body p {
+    font-size: 0.92rem;
+    line-height: 1.55;
+    margin: 0 0 0.5rem;
+  }
+
+  .explainer-body a {
+    color: var(--purple);
+  }
+
   .tags {
     display: flex;
     gap: 0.5rem;
@@ -257,6 +299,16 @@
 </header>
 
 <main>
+  <details class="explainer">
+    <summary>What do "APPG member" and "NC31" mean?</summary>
+    <div class="explainer-body">
+      <h3>APPG for Fair Elections</h3>
+      <p>An All-Party Parliamentary Group (APPG) is an informal, cross-party group of MPs and members of the House of Lords who share an interest in a particular issue. APPGs have no official status in Parliament, but membership signals where cross-party support exists. The <a href="https://www.parallelparliament.co.uk/APPG/fair-elections" target="_blank" rel="noopener">APPG for Fair Elections</a> campaigns to replace First Past the Post with a proportional voting system, and is chaired by Alex Sobel MP.</p>
+      <h3>NC31</h3>
+      <p>"NC31" is New Clause 31 — an amendment tabled by Alex Sobel to the Representation of the People Bill, calling for a National Commission on Electoral Reform to review how the UK votes for the House of Commons. As of July 2026 it's the most-signed amendment of this Parliament, with signatures from MPs across eight parties. Read the <a href="https://bills.parliament.uk/bills/4080/stages/20676/amendments/10035247" target="_blank" rel="noopener">amendment text on bills.parliament.uk</a>.</p>
+    </div>
+  </details>
+
   <div class="controls">
     <input type="text" id="search" placeholder="Search by name, constituency or party…" aria-label="Search MPs">
     <button class="filter-btn active" data-filter="all">All</button>
@@ -313,10 +365,10 @@
           <span class="entry-meta">${mp.party} · ${mp.constituency}</span>
         </div>
         <div class="tags">
-          <span class="tag ${mp.appg_fair_elections_member ? 'yes' : 'no'}">
+          <span class="tag ${mp.appg_fair_elections_member ? 'yes' : 'no'}" title="All-Party Parliamentary Group for Fair Elections — a cross-party group campaigning to replace First Past the Post with a proportional voting system">
             ${mp.appg_fair_elections_member ? '✓' : '—'} APPG for Fair Elections
           </span>
-          <span class="tag ${mp.nc31_signatory ? 'yes' : 'no'}">
+          <span class="tag ${mp.nc31_signatory ? 'yes' : 'no'}" title="New Clause 31 — Alex Sobel's amendment calling for a National Commission on Electoral Reform">
             ${mp.nc31_signatory ? '✓' : '—'} Signed NC31
           </span>
           ${mp.parliamentary_email ? `
