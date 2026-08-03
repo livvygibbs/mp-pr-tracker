@@ -69,6 +69,69 @@
     padding: 2rem 1.5rem 4rem;
   }
 
+  .find-mp {
+    margin-bottom: 1.75rem;
+    padding: 1.1rem 1.3rem;
+    border: 1.5px solid var(--purple);
+    border-radius: 3px;
+    background: rgba(107, 35, 130, 0.06);
+  }
+
+  .find-mp label {
+    display: block;
+    font-family: var(--mono);
+    font-size: 0.78rem;
+    letter-spacing: 0.03em;
+    color: var(--ink-soft);
+    margin-bottom: 0.5rem;
+  }
+
+  .find-mp-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+  }
+
+  #postcodeInput {
+    flex: 1 1 160px;
+    padding: 0.6rem 0.85rem;
+    font-family: var(--sans);
+    font-size: 0.95rem;
+    text-transform: uppercase;
+    border: 1.5px solid var(--ink);
+    background: var(--paper);
+    color: var(--ink);
+    border-radius: 2px;
+  }
+
+  #postcodeInput:focus {
+    outline: 2px solid var(--purple);
+    outline-offset: 1px;
+  }
+
+  #findMpBtn {
+    font-family: var(--mono);
+    font-size: 0.82rem;
+    padding: 0.6rem 1.1rem;
+    background: var(--purple);
+    border: 1.5px solid var(--purple);
+    color: var(--paper);
+    border-radius: 2px;
+    cursor: pointer;
+  }
+
+  #findMpBtn:hover { opacity: 0.88; }
+  #findMpBtn:disabled { opacity: 0.5; cursor: default; }
+
+  .find-mp-result {
+    margin-top: 0.7rem;
+    font-family: var(--mono);
+    font-size: 0.85rem;
+  }
+
+  .find-mp-result.error { color: var(--lords-red); }
+  .find-mp-result.success { color: var(--green); }
+
   .controls {
     display: flex;
     flex-wrap: wrap;
@@ -384,6 +447,15 @@
 </header>
 
 <main>
+  <div class="find-mp">
+    <label for="postcodeInput">Find your MP by postcode</label>
+    <div class="find-mp-row">
+      <input type="text" id="postcodeInput" placeholder="e.g. SW1A 0AA" aria-label="Enter your postcode">
+      <button id="findMpBtn">Find my MP</button>
+    </div>
+    <div class="find-mp-result" id="findMpResult"></div>
+  </div>
+
   <div class="controls">
     <input type="text" id="search" placeholder="Search by name, constituency or party…" aria-label="Search MPs">
     <button class="filter-btn active" data-filter="all">All</button>
@@ -603,6 +675,61 @@
       btn.textContent = `${abbr} (${count})`;
     });
   }
+
+  function resetAllFilters() {
+    activeStatusFilters.clear();
+    statusToggleBtns.forEach(b => b.classList.remove("active"));
+    updateAllButtonState();
+
+    activeParty = null;
+    document.querySelectorAll(".party-btn").forEach(b => b.classList.remove("active"));
+    document.querySelector(".party-btn")?.classList.add("active"); // "All parties" is always appended first
+  }
+
+  async function findMyMp() {
+    const input = document.getElementById("postcodeInput");
+    const resultEl = document.getElementById("findMpResult");
+    const btn = document.getElementById("findMpBtn");
+    const postcode = input.value.trim();
+    if (!postcode) return;
+
+    btn.disabled = true;
+    resultEl.className = "find-mp-result";
+    resultEl.textContent = "Looking up…";
+
+    try {
+      const resp = await fetch(`https://api.postcodes.io/postcodes/${encodeURIComponent(postcode)}`);
+      if (!resp.ok) throw new Error("postcode not found");
+      const data = await resp.json();
+      const constituency = data.result.parliamentary_constituency_2024 || data.result.parliamentary_constituency;
+      const mp = mpData.find(m => m.constituency === constituency);
+
+      if (!mp) {
+        resultEl.className = "find-mp-result error";
+        resultEl.textContent = `Found the constituency "${constituency}", but couldn't match it to anyone in this tracker - the data may need updating.`;
+        return;
+      }
+
+      resetAllFilters();
+      searchTerm = mp.name;
+      document.getElementById("search").value = mp.name;
+      render();
+
+      resultEl.className = "find-mp-result success";
+      resultEl.textContent = `Your MP for ${constituency} is ${mp.name}.`;
+      document.getElementById("results").scrollIntoView({ behavior: "smooth", block: "start" });
+    } catch (err) {
+      resultEl.className = "find-mp-result error";
+      resultEl.textContent = "Couldn't find that postcode - double check it and try again.";
+    } finally {
+      btn.disabled = false;
+    }
+  }
+
+  document.getElementById("findMpBtn").addEventListener("click", findMyMp);
+  document.getElementById("postcodeInput").addEventListener("keydown", (e) => {
+    if (e.key === "Enter") findMyMp();
+  });
 
   fetch("mp_pr_data.json")
     .then(r => r.json())
