@@ -96,7 +96,147 @@ MANUAL_QUOTES = {
             "text": "My amendment to establish a national commission on electoral reform is now the most supported amendment this parliament with 166 signatories from eight parties, half of whom are Labour.",
             "source": "Politics.co.uk",
             "date": "8 July 2026",
-        }
+        },
+    ],
+    "Andrew Lewin": [
+        {
+            "text": "I want to start by putting on record that I am a long-standing advocate of a more proportional electoral system for our general elections.",
+            "source": "Hansard, House of Commons",
+            "date": "30 January 2025",
+        },
+    ],
+    "Andrew Ranger": [
+        {
+            "text": "This is fundamentally an argument about fairness. Everyone's vote should be equal, and should count.",
+            "source": "Hansard, House of Commons",
+            "date": "30 January 2025",
+        },
+    ],
+    "Anna Dixon": [
+        {
+            "text": "I turn to the benefits of PR, for which I am a strong advocate. I saw as a young politics student in Germany how PR led to more stable government.",
+            "source": "Hansard, House of Commons",
+            "date": "30 January 2025",
+        },
+    ],
+    "Cameron Thomas": [
+        {
+            "text": "The only way to ensure that the next election returns a representative Parliament is to transition to a proportional representation electoral system.",
+            "source": "Hansard, House of Commons",
+            "date": "30 January 2025",
+        },
+    ],
+    "Claire Young": [
+        {
+            "text": "Does the hon. Gentleman agree that, in our current system, people vote for what can actually be very loose coalitions? Our electoral system forces us to have very large coalitions in order to form a Government, but voters do not know which parts of those coalitions they are going to get after an election.",
+            "source": "Hansard, House of Commons",
+            "date": "30 January 2025",
+        },
+    ],
+    "Clive Jones": [
+        {
+            "text": "We need to fundamentally change our electoral system. It is undemocratic that under the UK's electoral system, not all votes count in the same way.",
+            "source": "Hansard, House of Commons",
+            "date": "30 January 2025",
+        },
+    ],
+    "Florence Eshalomi": [
+        {
+            "text": "Turnout at the general election in July last year dropped to below 60%, which means that two in every five people did not participate. Does my hon. Friend agree that that shows we need change, so that more people engage in our democratic system?",
+            "source": "Hansard, House of Commons",
+            "date": "30 January 2025",
+        },
+    ],
+    "Jeevun Sandher": [
+        {
+            "text": "Proportional representation ensures that we have an equal say in how we our governed and, what is crucially missed, also leads to less poverty and more growth.",
+            "source": "Progress Online",
+            "date": "13 January 2023",
+        },
+    ],
+    "Joe Powell": [
+        {
+            "text": "Our current system is failing to command public trust. That is the foundation of my belief in electoral reform.",
+            "source": "Hansard, House of Commons",
+            "date": "30 January 2025",
+        },
+    ],
+    "Lisa Smart": [
+        {
+            "text": "The case for electoral reform is urgent and undeniable. First past the post is a system that no longer functions as a fair or effective mechanism for translating the will of the electorate into parliamentary representation.",
+            "source": "Hansard, House of Commons",
+            "date": "30 January 2025",
+        },
+    ],
+    "Luke Akehurst": [
+        {
+            "text": "All voters should have equal value wherever they live in the UK, but first past the post condemns millions of voters to living in electoral deserts where just one party dominates all Commons representation.",
+            "source": "Hansard, House of Commons",
+            "date": "30 January 2025",
+        },
+    ],
+    "Marie Goldman": [
+        {
+            "text": "Our antiquated first-past-the-post system can be incredibly demoralising, even for a committed political campaigner like myself.",
+            "source": "Hansard, House of Commons",
+            "date": "30 January 2025",
+        },
+    ],
+    "Noah Law": [
+        {
+            "text": "Under the current system, many voters feel that their vote fails to express those nuances, which can lead to disengagement, disillusionment and a sense that the political system does not serve them.",
+            "source": "Hansard, House of Commons",
+            "date": "30 January 2025",
+        },
+    ],
+    "Olly Glover": [
+        {
+            "text": "The United Kingdom is highly anomalous in retaining first past the post. Very few other European countries do so.",
+            "source": "Hansard, House of Commons",
+            "date": "30 January 2025",
+        },
+    ],
+    "Rachel Gilmour": [
+        {
+            "text": "The system is not fair, and it is not proportional. I and my colleagues in my party will continue to fight hard to raise awareness about its unfairness, not because it is the politically expedient thing to do—as has been pointed out, we did rather well under first past the post at the last general election—but because it is the right thing to do.",
+            "source": "Hansard, House of Commons",
+            "date": "30 January 2025",
+        },
+    ],
+    "Sarah Olney": [
+        {
+            "text": "First past the post is a broken and unfair system. Last summer, the Labour party won a landslide election victory, securing 63% of seats in the House of Commons in return for just 34% of the vote.",
+            "source": "Hansard, House of Commons",
+            "date": "30 January 2025",
+        },
+    ],
+    "Siân Berry": [
+        {
+            "text": "I am not here to make arguments that are only in my own self-interest. Proportionality is not the goal here; a better politics is.",
+            "source": "Hansard, House of Commons",
+            "date": "30 January 2025",
+        },
+    ],
+    "Steve Race": [
+        {
+            "text": "I too wish to take this opportunity to put on record my support for electoral reform, to ensure that the composition of our representatives better reflects the wishes of voters and that voters can exercise more choice.",
+            "source": "Hansard, House of Commons",
+            "date": "30 January 2025",
+        },
+    ],
+    "Tim Roca": [
+        {
+            "text": "I hope all of us here are committed to the fundamental principle that we should have a functioning, representative democracy; and that elections should reflect the will of the people.",
+            "source": "Hansard, House of Commons",
+            "date": "30 January 2025",
+        },
+    ],
+    "Tom Hayes": [
+        {
+            "text": "On Monday morning, I visited the year 10 citizenship class at St Peter's school in Bournemouth, where I spoke with several young people, including Ozzie, who was only just born at the time of the last vote. He asked me whether I agreed that too many people feel their vote does not count, that too many younger people feel disconnected from democracy, and that the continuation of first past the post will leave more people—particularly younger people—disconnected from democracy.",
+            "source": "Hansard, House of Commons",
+            "date": "30 January 2025",
+        },
     ],
 }
 
