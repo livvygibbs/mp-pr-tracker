@@ -278,6 +278,12 @@
     border-radius: 3px;
     padding: 1.1rem 1.3rem;
     margin-bottom: 0.9rem;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+
+  .entry.highlighted {
+    border-color: var(--purple);
+    box-shadow: 0 0 0 2px var(--purple);
   }
 
   .entry-top {
@@ -559,7 +565,7 @@
     }
 
     resultsEl.innerHTML = filtered.map(mp => `
-      <article class="entry">
+      <article class="entry" data-name="${mp.name}">
         <div class="entry-top">
           <span class="entry-name">${mp.name}${mp.house === 'Lords' ? ' <span class="badge-lords">HOUSE OF LORDS</span>' : ''}</span>
           <span class="entry-meta">${mp.party} · ${mp.constituency}</span>
@@ -710,14 +716,24 @@
         return;
       }
 
+      // Reset filters/search rather than searching for the MP by name -
+      // that would leave the search box holding their name after the fact,
+      // silently blocking every other filter and search from working until
+      // the user noticed and cleared it themselves.
       resetAllFilters();
-      searchTerm = mp.name;
-      document.getElementById("search").value = mp.name;
+      searchTerm = "";
+      document.getElementById("search").value = "";
       render();
 
       resultEl.className = "find-mp-result success";
       resultEl.textContent = `Your MP for ${constituency} is ${mp.name}.`;
-      document.getElementById("results").scrollIntoView({ behavior: "smooth", block: "start" });
+
+      document.querySelectorAll(".entry.highlighted").forEach(el => el.classList.remove("highlighted"));
+      const card = document.querySelector(`.entry[data-name="${CSS.escape(mp.name)}"]`);
+      if (card) {
+        card.classList.add("highlighted");
+        card.scrollIntoView({ block: "center" });
+      }
     } catch (err) {
       resultEl.className = "find-mp-result error";
       resultEl.textContent = "Couldn't find that postcode - double check it and try again.";
