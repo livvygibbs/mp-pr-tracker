@@ -211,6 +211,62 @@
     background: var(--paper-dark);
   }
 
+  .clear-btn {
+    font-family: var(--mono);
+    font-size: 0.72rem;
+    letter-spacing: 0.03em;
+    padding: 0.45rem 0.75rem;
+    background: transparent;
+    border: 1.5px dashed var(--ink-soft);
+    color: var(--ink-soft);
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background 0.15s, color 0.15s, border-color 0.15s;
+  }
+
+  .clear-btn:hover {
+    border-color: var(--ink);
+    color: var(--ink);
+  }
+
+  .back-to-top {
+    position: fixed;
+    right: 1.5rem;
+    bottom: 1.5rem;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background: var(--green-deep);
+    color: var(--paper);
+    border: 1px solid var(--gold);
+    font-family: var(--mono);
+    font-size: 1.1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(0.5rem);
+    transition: opacity 0.2s, transform 0.2s, visibility 0.2s;
+    z-index: 10;
+  }
+
+  .back-to-top.visible {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+
+  .back-to-top:hover {
+    background: var(--green);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .back-to-top { transition: opacity 0.01s, visibility 0.01s; }
+  }
+
   .lords-filter-container {
     display: flex;
     padding: 0.9rem 1rem;
@@ -470,6 +526,7 @@
   <div class="status-filters">
     <button class="filter-btn" data-filter="appg">APPG member</button>
     <button class="filter-btn" data-filter="nc31">Signed NC31</button>
+    <button class="clear-btn" id="clearStatusBtn">Clear</button>
 
     <details class="explainer">
       <summary>What do "APPG member" and "NC31" mean?</summary>
@@ -493,6 +550,8 @@
   <div class="result-count" id="resultCount"></div>
   <div id="results"></div>
 </main>
+
+<button class="back-to-top" id="backToTop" aria-label="Back to top" title="Back to top">↑</button>
 
 <footer>
   Data sourced from the official APPG register and NC31 amendment records on parliament.uk, cross-referenced with parallelparliament.co.uk. Quotes curated by hand from Hansard and public statements. This page is independently maintained and not an official parliamentary publication.
@@ -628,6 +687,24 @@
       updateAllButtonState();
       render();
     });
+  });
+
+  // Scoped to just APPG/NC31 (not Lords or party) since it sits in that
+  // container specifically - a quicker reset than scrolling up to "All"
+  // when you only want to clear those two.
+  document.getElementById("clearStatusBtn").addEventListener("click", () => {
+    ["appg", "nc31"].forEach(key => activeStatusFilters.delete(key));
+    document.querySelectorAll('[data-filter="appg"], [data-filter="nc31"]').forEach(b => b.classList.remove("active"));
+    updateAllButtonState();
+    render();
+  });
+
+  const backToTopBtn = document.getElementById("backToTop");
+  window.addEventListener("scroll", () => {
+    backToTopBtn.classList.toggle("visible", window.scrollY > 600);
+  });
+  backToTopBtn.addEventListener("click", () => {
+    window.scrollTo(0, 0);
   });
 
   function buildPartyFilters() {
